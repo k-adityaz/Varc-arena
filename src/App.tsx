@@ -24,7 +24,7 @@ function AppContent() {
 
   // Start a quiz with the chosen difficulty
   const startQuiz = useCallback((diff: string) => {
-    const qs = getRandomQuestions(diff, 10);
+    const qs = getRandomQuestions(diff, 25);
     setDifficulty(diff);
     setQuestions(qs);
     setAnswers(new Array(qs.length).fill(null));
