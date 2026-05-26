@@ -1,24 +1,260 @@
 [
   {
     "id": 1,
-    "question": "Arrange logically: A. He woke up B. He brushed his teeth C. He ate breakfast D. He went to school",
-    "options": ["A-B-C-D", "B-A-D-C", "A-C-B-D", "D-C-B-A"],
-    "correctAnswer": 0,
+    "question": "Arrange the sentences in the correct order:\nA. The teacher entered the classroom.\nB. The students greeted her warmly.\nC. She started explaining the lesson.\nD. Everyone opened their notebooks.",
+    "options": [
+      "A-B-D-C",
+      "A-B-C-D",
+      "B-A-C-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 1,
     "difficulty": "easy",
     "type": "para-jumble"
   },
   {
     "id": 2,
-    "question": "Arrange logically: A. Clouds gathered B. It started raining C. Roads became wet D. People used umbrellas",
-    "options": ["A-B-C-D", "B-A-D-C", "D-C-B-A", "A-C-B-D"],
+    "question": "Arrange the sentences logically:\nA. Dark clouds gathered in the sky.\nB. It started raining heavily.\nC. People opened their umbrellas.\nD. The streets became wet quickly.",
+    "options": [
+      "A-B-C-D",
+      "B-A-C-D",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
     "correctAnswer": 0,
     "difficulty": "easy",
     "type": "para-jumble"
   },
   {
     "id": 3,
-    "question": "Arrange logically: A. Seed was planted B. Plant grew C. Flower bloomed D. Water was given",
-    "options": ["A-D-B-C", "B-A-C-D", "D-A-B-C", "A-B-C-D"],
+    "question": "Arrange the sentences correctly:\nA. Rohan bought some seeds.\nB. He planted them in his garden.\nC. He watered them every day.\nD. Beautiful flowers bloomed after a few weeks.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 4,
+    "question": "Choose the correct order:\nA. The bus arrived late.\nB. The passengers became impatient.\nC. Finally, everyone boarded the bus.\nD. The driver apologized for the delay.",
+    "options": [
+      "A-B-D-C",
+      "B-A-C-D",
+      "D-C-B-A",
+      "A-D-B-C"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 5,
+    "question": "Arrange the following:\nA. Meera studied hard for the exam.\nB. She revised all chapters carefully.\nC. She appeared confidently for the test.\nD. She scored excellent marks.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 6,
+    "question": "Arrange logically:\nA. The baby started crying loudly.\nB. His mother picked him up.\nC. She gave him some milk.\nD. Soon, he became quiet again.",
+    "options": [
+      "A-B-C-D",
+      "B-A-C-D",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 7,
+    "question": "Arrange the sentences correctly:\nA. The players entered the field.\nB. The crowd cheered loudly.\nC. The referee blew the whistle.\nD. The match began immediately.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "C-B-A-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 8,
+    "question": "Arrange the sentences in proper order:\nA. Tina packed her suitcase.\nB. She booked a train ticket.\nC. She reached the railway station.\nD. She boarded the train happily.",
+    "options": [
+      "A-B-C-D",
+      "B-A-C-D",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 9,
+    "question": "Choose the correct arrangement:\nA. The alarm clock rang loudly.\nB. Rahul woke up immediately.\nC. He brushed his teeth quickly.\nD. Then he left for school.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "C-B-A-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 10,
+    "question": "Arrange logically:\nA. The chef prepared the ingredients.\nB. He cooked the food carefully.\nC. The delicious meal was served.\nD. Customers enjoyed the dinner.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "C-B-A-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 11,
+    "question": "Arrange the sentences correctly:\nA. The librarian issued the book.\nB. Aryan searched for a novel.\nC. He found an interesting storybook.\nD. He thanked the librarian politely.",
+    "options": [
+      "B-C-A-D",
+      "A-B-C-D",
+      "C-B-D-A",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 12,
+    "question": "Arrange the following:\nA. The lights suddenly went out.\nB. Everyone became nervous.\nC. The electrician checked the wires.\nD. Electricity was restored soon.",
+    "options": [
+      "A-B-C-D",
+      "B-A-C-D",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 13,
+    "question": "Choose the correct order:\nA. Simran adopted a puppy.\nB. She fed it nutritious food.\nC. The puppy became healthy and active.\nD. It started following her everywhere.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 14,
+    "question": "Arrange logically:\nA. The scientist conducted an experiment.\nB. He noted down the observations.\nC. He analyzed the results carefully.\nD. Finally, he published his findings.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 15,
+    "question": "Arrange the sentences correctly:\nA. The movie trailer was released online.\nB. People became excited to watch the film.\nC. Tickets were booked quickly.\nD. The theatre became houseful.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 16,
+    "question": "Arrange properly:\nA. Neha entered the baking competition.\nB. She prepared a chocolate cake.\nC. The judges tasted her cake.\nD. She won the first prize.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "C-B-A-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 17,
+    "question": "Arrange the following sentences:\nA. The mountaineers began climbing early.\nB. The weather became colder.\nC. They finally reached the peak.\nD. Everyone celebrated their success.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 18,
+    "question": "Choose the correct arrangement:\nA. The shopkeeper arranged the products neatly.\nB. Customers entered the shop.\nC. Many people bought useful items.\nD. The shop became crowded by evening.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "C-B-A-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 19,
+    "question": "Arrange logically:\nA. The students planted saplings near the school.\nB. They watered the plants regularly.\nC. The saplings grew into healthy trees.\nD. The school campus looked greener.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 20,
+    "question": "Arrange the sentences in correct order:\nA. The police received information about the theft.\nB. Officers reached the location quickly.\nC. They investigated the matter carefully.\nD. The thief was arrested later.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "C-B-A-D",
+      "D-C-B-A"
+    ],
     "correctAnswer": 0,
     "difficulty": "easy",
     "type": "para-jumble"
