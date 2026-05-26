@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Statement: All birds can fly. Penguin is a bird. What can be concluded?",
+    "options": [
+      "Penguin can fly",
+      "Penguin cannot fly",
+      "No conclusion can be drawn",
+      "Penguin is not a bird"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "According to the statement, all birds can fly. Since penguin is called a bird here, the logical conclusion is that penguin can fly."
+  },
+  {
+    "id": 2,
+    "question": "If all roses are flowers and some flowers fade quickly, which statement is definitely true?",
+    "options": [
+      "All roses fade quickly",
+      "Some roses may fade quickly",
+      "No flowers fade quickly",
+      "Roses are not flowers"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Since some flowers fade quickly and roses are flowers, some roses may also fade quickly."
+  },
+  {
+    "id": 3,
+    "question": "Statement: Heavy rain causes traffic jams. It rained heavily today. What is the most logical conclusion?",
+    "options": [
+      "Traffic jams may occur",
+      "There will be no traffic",
+      "Roads disappeared",
+      "Cars stopped forever"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "The statement says heavy rain causes traffic jams, so traffic jams may occur today."
+  },
+  {
+    "id": 4,
+    "question": "If all students study math and Riya is a student, what follows?",
+    "options": [
+      "Riya dislikes math",
+      "Riya studies math",
+      "Riya teaches math",
+      "Riya failed math"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "All students study math. Since Riya is a student, she studies math."
+  },
+  {
+    "id": 5,
+    "question": "Statement: Some athletes are singers. Which conclusion is correct?",
+    "options": [
+      "All athletes are singers",
+      "Some singers are athletes",
+      "No singer is an athlete",
+      "All singers are athletes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "If some athletes are singers, then some singers are athletes."
+  },
+  {
+    "id": 6,
+    "question": "A clock shows 3 PM. Three hours later, what time will it show?",
+    "options": [
+      "5 PM",
+      "6 PM",
+      "7 PM",
+      "8 PM"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Adding 3 hours to 3 PM gives 6 PM."
+  },
+  {
+    "id": 7,
+    "question": "If every doctor is educated and Ravi is a doctor, then Ravi is:",
+    "options": [
+      "Uneducated",
+      "Educated",
+      "A teacher",
+      "A lawyer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Every doctor is educated. Ravi is a doctor, so Ravi is educated."
+  },
+  {
+    "id": 8,
+    "question": "Statement: The ground is wet because it rained. What type of relationship is this?",
+    "options": [
+      "Cause and effect",
+      "Comparison",
+      "Contrast",
+      "Opinion"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Rain is the cause and the wet ground is the effect."
+  },
+  {
+    "id": 9,
+    "question": "If all cats are animals and Tommy is a cat, what can we conclude?",
+    "options": [
+      "Tommy is an animal",
+      "Tommy is a tiger",
+      "Tommy is not an animal",
+      "Tommy can bark"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "All cats are animals. Since Tommy is a cat, Tommy is an animal."
+  },
+  {
+    "id": 10,
+    "question": "Statement: Some books are interesting. Which statement is valid?",
+    "options": [
+      "All books are interesting",
+      "Some interesting things are books",
+      "No books are interesting",
+      "Interesting books do not exist"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "If some books are interesting, then some interesting things are books."
+  },
+  {
+    "id": 11,
+    "question": "If all apples are fruits and some fruits are yellow, then:",
+    "options": [
+      "All apples are yellow",
+      "Some apples may be yellow",
+      "No apples are fruits",
+      "Fruits are vegetables"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Some fruits are yellow, so it is possible that some apples may also be yellow."
+  },
+  {
+    "id": 12,
+    "question": "A train travels 60 km in one hour. How far will it travel in 2 hours?",
+    "options": [
+      "100 km",
+      "110 km",
+      "120 km",
+      "130 km"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "60 km in 1 hour means 120 km in 2 hours."
+  },
+  {
+    "id": 13,
+    "question": "If all teachers work in schools and Anita is a teacher, Anita works in:",
+    "options": [
+      "A hospital",
+      "A school",
+      "A bank",
+      "A mall"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "All teachers work in schools. Anita is a teacher, so she works in a school."
+  },
+  {
+    "id": 14,
+    "question": "Statement: The power went out because of the storm. Which is the cause?",
+    "options": [
+      "Power cut",
+      "Storm",
+      "Electricity",
+      "Darkness"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "The storm caused the power outage."
+  },
+  {
+    "id": 15,
+    "question": "If some cars are electric and all electric vehicles save fuel, what can be concluded?",
+    "options": [
+      "Some cars save fuel",
+      "All cars save fuel",
+      "No cars save fuel",
+      "Electric cars do not exist"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Some cars are electric, and electric vehicles save fuel. Therefore, some cars save fuel."
+  },
+  {
+    "id": 16,
+    "question": "Statement: All mangoes are fruits. All fruits contain vitamins. Therefore:",
+    "options": [
+      "All mangoes contain vitamins",
+      "No mangoes contain vitamins",
+      "Only fruits contain vitamins",
+      "Mangoes are vegetables"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Mangoes are fruits and fruits contain vitamins, so mangoes contain vitamins."
+  },
+  {
+    "id": 17,
+    "question": "If all laptops are electronic devices and some electronic devices are expensive, then:",
+    "options": [
+      "All laptops are expensive",
+      "Some laptops may be expensive",
+      "No laptops are expensive",
+      "Laptops are not electronic"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Some electronic devices are expensive, so some laptops may also be expensive."
+  },
+  {
+    "id": 18,
+    "question": "A shopkeeper sold 5 pens for ₹50. What is the price of one pen?",
+    "options": [
+      "₹5",
+      "₹8",
+      "₹10",
+      "₹15"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "₹50 divided by 5 pens equals ₹10 per pen."
+  },
+  {
+    "id": 19,
+    "question": "Statement: Healthy food improves fitness. Rahul eats healthy food daily. What can be inferred?",
+    "options": [
+      "Rahul may improve his fitness",
+      "Rahul dislikes fitness",
+      "Rahul never exercises",
+      "Healthy food is harmful"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "Healthy food improves fitness, so Rahul may improve his fitness by eating healthy food daily."
+  },
+  {
+    "id": 20,
+    "question": "If all planets revolve around the Sun and Earth is a planet, then:",
+    "options": [
+      "Earth revolves around the Sun",
+      "Earth is the Sun",
+      "Earth does not move",
+      "Planets are stars"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "critical-reasoning",
+    "explanation": "All planets revolve around the Sun. Earth is a planet, so Earth revolves around the Sun."
+  }
+]

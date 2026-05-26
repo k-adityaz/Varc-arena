@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "passage": "Ravi loved playing football after school. Every evening, he went to the playground with his friends. They practiced hard for the school tournament.",
+    "question": "Why did Ravi go to the playground every evening?",
+    "options": [
+      "To study",
+      "To practice football",
+      "To sleep",
+      "To watch movies"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 2,
+    "passage": "The sun rises in the east and sets in the west. It gives us light and heat during the day.",
+    "question": "What does the sun give us?",
+    "options": [
+      "Rain",
+      "Snow",
+      "Light and heat",
+      "Wind"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 3,
+    "passage": "Trees are very useful for humans. They provide oxygen, fruits, and shade. Trees also help keep the environment clean.",
+    "question": "How do trees help the environment?",
+    "options": [
+      "By causing pollution",
+      "By keeping it clean",
+      "By making noise",
+      "By drying rivers"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 4,
+    "passage": "Meena woke up early in the morning to prepare for her exam. She revised all the important chapters carefully.",
+    "question": "Why did Meena wake up early?",
+    "options": [
+      "To play games",
+      "To revise for her exam",
+      "To watch television",
+      "To visit friends"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 5,
+    "passage": "Water is essential for all living things. Humans, animals, and plants cannot survive without water.",
+    "question": "Who needs water to survive?",
+    "options": [
+      "Only humans",
+      "Only animals",
+      "Only plants",
+      "All living things"
+    ],
+    "correctAnswer": 3,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 6,
+    "passage": "The library in Rohan's school has many books. Students visit it to read stories and learn new things.",
+    "question": "Why do students visit the library?",
+    "options": [
+      "To sleep",
+      "To play football",
+      "To read and learn",
+      "To cook food"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 7,
+    "passage": "Cats are popular pets because they are playful and easy to care for. Many people enjoy keeping cats at home.",
+    "question": "Why are cats popular pets?",
+    "options": [
+      "They are dangerous",
+      "They are playful and easy to care for",
+      "They are very noisy",
+      "They can fly"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 8,
+    "passage": "During winter, people wear woollen clothes to keep themselves warm. Jackets and sweaters protect them from cold winds.",
+    "question": "Why do people wear woollen clothes in winter?",
+    "options": [
+      "To look taller",
+      "To stay warm",
+      "To play sports",
+      "To swim"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 9,
+    "passage": "The farmer worked hard in the field every day. After months of care, the crops were ready to harvest.",
+    "question": "What happened after months of care?",
+    "options": [
+      "The crops dried",
+      "The crops were harvested",
+      "The farmer left",
+      "It started snowing"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 10,
+    "passage": "Priya enjoys painting landscapes and flowers. She uses bright colours to make her artwork beautiful.",
+    "question": "What does Priya enjoy painting?",
+    "options": [
+      "Cars",
+      "Buildings",
+      "Landscapes and flowers",
+      "Animals only"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 11,
+    "passage": "The Earth revolves around the Sun once every year. This movement causes different seasons.",
+    "question": "What causes different seasons?",
+    "options": [
+      "The Moon",
+      "Earth's revolution around the Sun",
+      "Clouds",
+      "Rainfall"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 12,
+    "passage": "Anita drank plenty of water and exercised daily. She wanted to remain healthy and active.",
+    "question": "Why did Anita exercise daily?",
+    "options": [
+      "To remain healthy",
+      "To become sleepy",
+      "To avoid school",
+      "To waste time"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 13,
+    "passage": "Birds build nests on trees to lay eggs and protect their babies from danger.",
+    "question": "Why do birds build nests?",
+    "options": [
+      "To hide food",
+      "To sleep only",
+      "To protect their babies",
+      "To swim"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 14,
+    "passage": "Electricity helps us use fans, lights, and computers. Without electricity, life would become difficult.",
+    "question": "Which of these works using electricity?",
+    "options": [
+      "Fan",
+      "Stone",
+      "Tree",
+      "Book"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 15,
+    "passage": "A healthy diet includes fruits, vegetables, milk, and grains. Junk food should be eaten less often.",
+    "question": "What should be eaten less often?",
+    "options": [
+      "Fruits",
+      "Vegetables",
+      "Junk food",
+      "Milk"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 16,
+    "passage": "The train arrived late because of heavy rain. Many passengers had to wait at the station.",
+    "question": "Why was the train late?",
+    "options": [
+      "Because of traffic",
+      "Because of heavy rain",
+      "Because of snow",
+      "Because of a festival"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 17,
+    "passage": "Neha saved money every month to buy a bicycle. After a year, she finally bought one.",
+    "question": "Why did Neha save money?",
+    "options": [
+      "To buy books",
+      "To buy a bicycle",
+      "To buy clothes",
+      "To buy food"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 18,
+    "passage": "The classroom was decorated with balloons and charts for the annual function.",
+    "question": "Why was the classroom decorated?",
+    "options": [
+      "For a picnic",
+      "For the annual function",
+      "For exams",
+      "For cleaning"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 19,
+    "passage": "Dogs are known for their loyalty. They often protect their owners from danger.",
+    "question": "What are dogs known for?",
+    "options": [
+      "Flying",
+      "Loyalty",
+      "Swimming",
+      "Sleeping"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "type": "rc"
+  },
+  {
+    "id": 20,
+    "passage": "Recycling paper helps save trees and reduces waste in the environment.",
+    "question": "What does recycling paper help save?",
+    "options": [
+      "Cars",
+      "Buildings",
+      "Trees",
+      "Roads"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "type": "rc"
+  }
+]

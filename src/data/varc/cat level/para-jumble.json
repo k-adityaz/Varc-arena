@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Arrange logically: A. He woke up B. He brushed his teeth C. He ate breakfast D. He went to school",
+    "options": ["A-B-C-D", "B-A-D-C", "A-C-B-D", "D-C-B-A"],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 2,
+    "question": "Arrange logically: A. Clouds gathered B. It started raining C. Roads became wet D. People used umbrellas",
+    "options": ["A-B-C-D", "B-A-D-C", "D-C-B-A", "A-C-B-D"],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 3,
+    "question": "Arrange logically: A. Seed was planted B. Plant grew C. Flower bloomed D. Water was given",
+    "options": ["A-D-B-C", "B-A-C-D", "D-A-B-C", "A-B-C-D"],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  }
+]
