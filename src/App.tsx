@@ -8,7 +8,7 @@ import DifficultySelect from './components/DifficultySelect';
 import QuizPage from './components/QuizPage';
 import ResultPage from './components/ResultPage';
 import Dashboard from './components/Dashboard';
-import { AuthProvider, useAuth } from './context/AuthContext';
+import { useAuth } from './context/AuthContext';
 import { getRandomQuestions, difficultyConfig } from './data';
 
 type Screen = 'home' | 'dashboard' | 'level' | 'quiz' | 'results';
@@ -87,5 +87,5 @@ function AppContent() {
 }
 
 export default function App() {
-  return <AuthProvider><AppContent /></AuthProvider>;
+  return <AppContent />;
 }

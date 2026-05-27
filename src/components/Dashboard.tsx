@@ -21,7 +21,13 @@ export default function Dashboard() {
   // Streak
   const getStreak = () => {
     if (!history.length) return 0;
-    const days = [...new Set(history.map(h => new Date(h.date).toDateString()))].sort((a, b) => new Date(b).getTime() - new Date(a).getTime());
+    const days = [
+  ...new Set(
+    history.map(h =>
+      new Date(h.date || h.createdAt).toDateString()
+    )
+  )
+].sort((a, b) => new Date(b).getTime() - new Date(a).getTime());
     let streak = 1;
     for (let i = 1; i < days.length; i++) {
       if ((new Date(days[i - 1]).getTime() - new Date(days[i]).getTime()) / (86400000) <= 1.5) streak++;
@@ -48,7 +54,12 @@ export default function Dashboard() {
   });
   const diffBarColors: Record<string, string> = { Easy: 'bg-emerald-500', Medium: 'bg-amber-500', Hard: 'bg-red-500', 'CAT Level': 'bg-violet-500' };
 
-  const initials = user?.name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2) || '?';
+  const initials = (user?.displayName || 'User')
+  .split(' ')
+  .map(w => w[0])
+  .join('')
+  .toUpperCase()
+  .slice(0, 2);
 
   // Line chart data — last 15 quizzes (reversed so oldest is left)
   const chartData = history.slice(0, 15).reverse();
@@ -75,9 +86,9 @@ export default function Dashboard() {
         <>
           {/* ---- Welcome ---- */}
           <div className="flex items-center gap-4 mb-8 animate-slide-up">
-            <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${user?.avatar} flex items-center justify-center text-white text-xl font-bold`}>{initials}</div>
+            <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white text-xl font-bold`}>{initials}</div>
             <div>
-              <h1 className="text-2xl font-bold text-white">Welcome back, {user?.name?.split(' ')[0]}! 👋</h1>
+              <h1 className="text-2xl font-bold text-white">Welcome back, {(user?.displayName || 'User').split(' ')[0]}! 👋</h1>
               <p className="text-slate-400 text-sm">{totalQuizzes === 0 ? "Start your first quiz to see stats here!" : `${streak} day streak 🔥 • ${totalQuizzes} quizzes completed`}</p>
             </div>
           </div>
@@ -196,7 +207,7 @@ export default function Dashboard() {
                           <div className="w-px h-2 bg-slate-700 mx-auto mb-1" />
                           {show && (
                             <span className="text-[10px] text-slate-500 whitespace-nowrap">
-                              {new Date(h.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
+                              {new Date(h.date || h.createdAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
                             </span>
                           )}
                         </div>
@@ -263,7 +274,7 @@ export default function Dashboard() {
                 {history.map((h) => {
                   const c = h.percentage >= 70 ? 'text-emerald-400' : h.percentage >= 50 ? 'text-amber-400' : 'text-red-400';
                   const bg = h.percentage >= 70 ? 'bg-emerald-500/20' : h.percentage >= 50 ? 'bg-amber-500/20' : 'bg-red-500/20';
-                  const d = new Date(h.date);
+                  const d = new Date(h.date || h.createdAt);
                   return (
                     <div key={h.id} className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-colors">
                       <div className={`w-9 h-9 rounded-xl ${bg} flex items-center justify-center flex-shrink-0`}>

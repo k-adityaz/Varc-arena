@@ -1,20 +1,28 @@
-// ============================================================
-// AUTH CONTEXT — Manages user login, logout, and quiz history
-// Uses localStorage so sessions persist across refreshes
-// ============================================================
-import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
-// User profile stored after login
-export interface User {
-  name: string;
-  email: string;
-  avatar: string; // gradient class for avatar
-}
+import {
+  signInWithPopup,
+  signOut,
+  onAuthStateChanged,
+  User,
+} from "firebase/auth";
 
-// One entry per completed quiz
-export interface QuizHistoryEntry {
-  id: string;
-  date: string;
+import {
+  doc,
+  setDoc,
+  updateDoc,
+  arrayUnion,
+  getDoc,
+} from "firebase/firestore";
+
+import { auth, provider, db } from "../firebase.ts";
+
+type HistoryEntry = {
   difficulty: string;
   score: number;
   total: number;
@@ -23,78 +31,123 @@ export interface QuizHistoryEntry {
   correct: number;
   wrong: number;
   skipped: number;
-}
-
-interface AuthContextType {
-  user: User | null;
-  isAuthenticated: boolean;
-  history: QuizHistoryEntry[];
-  login: (name: string, email: string) => void;
-  logout: () => void;
-  addHistoryEntry: (entry: Omit<QuizHistoryEntry, 'id' | 'date'>) => void;
-  clearHistory: () => void;
-}
-
-const AuthContext = createContext<AuthContextType | null>(null);
-
-// Generate a random ID
-const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2);
-
-// Pick an avatar gradient based on the user's name
-const pickAvatar = (name: string) => {
-  const gradients = ['from-indigo-400 to-purple-500', 'from-emerald-400 to-teal-500', 'from-rose-400 to-pink-500', 'from-amber-400 to-orange-500', 'from-cyan-400 to-blue-500'];
-  return gradients[name.charCodeAt(0) % gradients.length];
+  createdAt?: string;
 };
 
-export function AuthProvider({ children }: { children: ReactNode }) {
+type AuthContextType = {
+  user: User | null;
+  login: () => Promise<void>;
+  logout: () => Promise<void>;
+  isAuthenticated: boolean;
+  history: any[];
+  setHistory: React.Dispatch<React.SetStateAction<any[]>>;
+  addHistoryEntry: (entry: HistoryEntry) => Promise<void>;
+};
+
+const AuthContext = createContext<AuthContextType>({
+  user: null,
+  login: async () => {},
+  logout: async () => {},
+  isAuthenticated: false,
+  history: [],
+  setHistory: () => {},
+  addHistoryEntry: async () => {},
+});
+export const AuthProvider = ({ children }: any) => {
   const [user, setUser] = useState<User | null>(null);
-  const [history, setHistory] = useState<QuizHistoryEntry[]>([]);
-
-  // Load saved data from localStorage on first render
+const [history, setHistory] = useState<any[]>([]);
   useEffect(() => {
-    try {
-      const savedUser = localStorage.getItem('varc_user');
-      const savedHistory = localStorage.getItem('varc_history');
-      if (savedUser) setUser(JSON.parse(savedUser));
-      if (savedHistory) setHistory(JSON.parse(savedHistory));
-    } catch { /* ignore */ }
-  }, []);
+  const unsubscribe = onAuthStateChanged(
+    auth,
+    async (currentUser) => {
+      setUser(currentUser);
 
-  const login = useCallback((name: string, email: string) => {
-    const newUser: User = { name, email, avatar: pickAvatar(name) };
-    setUser(newUser);
-    localStorage.setItem('varc_user', JSON.stringify(newUser));
-  }, []);
+      if (!currentUser) {
+        setHistory([]);
+        return;
+      }
 
-  const logout = useCallback(() => {
-    setUser(null);
-    localStorage.removeItem('varc_user');
-  }, []);
+      const snap = await getDoc(
+        doc(db, "users", currentUser.uid)
+      );
 
-  const addHistoryEntry = useCallback((entry: Omit<QuizHistoryEntry, 'id' | 'date'>) => {
-    const newEntry: QuizHistoryEntry = { ...entry, id: uid(), date: new Date().toISOString() };
-    setHistory(prev => {
-      const updated = [newEntry, ...prev];
-      localStorage.setItem('varc_history', JSON.stringify(updated));
-      return updated;
-    });
-  }, []);
+      setHistory(
+        (snap.exists() && snap.data().history) || []
+      );
+    }
+  );
 
-  const clearHistory = useCallback(() => {
-    setHistory([]);
-    localStorage.removeItem('varc_history');
-  }, []);
+  return () => unsubscribe();
+}, []);
+
+  const login = async () => {
+  const result = await signInWithPopup(auth, provider);
+
+  const currentUser = result.user;
+
+  await setDoc(
+    doc(db, "users", currentUser.uid),
+    {
+      uid: currentUser.uid,
+      name: currentUser.displayName,
+      email: currentUser.email,
+      photo: currentUser.photoURL,
+      lastLogin: new Date().toISOString(),
+    },
+    { merge: true }
+  );
+
+  const userDoc = await getDoc(
+    doc(db, "users", currentUser.uid)
+  );
+
+  if (userDoc.exists()) {
+    const data = userDoc.data();
+
+    setHistory(data.history || []);
+  }
+};
+  const logout = async () => {
+    await signOut(auth);
+  };
+
+  const addHistoryEntry = async (
+  entry: HistoryEntry
+) => {
+  if (!user) return;
+
+  const userRef = doc(db, "users", user.uid);
+
+  const newEntry = {
+    ...entry,
+    date: new Date().toISOString(),
+  };
+
+  await updateDoc(userRef, {
+    history: arrayUnion(newEntry),
+  });
+
+  setHistory((prev) => [
+    newEntry,
+    ...prev,
+  ]);
+};
 
   return (
-    <AuthContext.Provider value={{ user, isAuthenticated: !!user, history, login, logout, addHistoryEntry, clearHistory }}>
+    <AuthContext.Provider
+  value={{
+    user,
+    login,
+    logout,
+    isAuthenticated: !!user,
+    history,
+    setHistory,
+    addHistoryEntry,
+  }}
+>
       {children}
     </AuthContext.Provider>
   );
-}
+};
 
-// Custom hook to access auth state
-export function useAuth() {
-  const ctx = useContext(AuthContext);
-  if (!ctx) throw new Error('useAuth must be used inside <AuthProvider>');
-  return ctx;
-}
+export const useAuth = () => useContext(AuthContext);

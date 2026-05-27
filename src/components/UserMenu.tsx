@@ -10,7 +10,10 @@ import { useAuth } from '../context/AuthContext';
 interface Props { onStart: () => void }
 
 export default function UserMenu({ onStart }: Props) {
-  const { user, logout, history, clearHistory } = useAuth();
+  const { user, logout } = useAuth();
+
+const history: any[] = [];
+const clearHistory = () => {};
   const [open, setOpen] = useState(false);
   const [showHistory, setShowHistory] = useState(false);
   const [confirmClear, setConfirmClear] = useState(false);
@@ -32,7 +35,12 @@ export default function UserMenu({ onStart }: Props) {
   const totalCorrect = history.reduce((s, h) => s + h.correct, 0);
   const totalAnswered = history.reduce((s, h) => s + h.total, 0);
   const accuracy = totalAnswered ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
-  const initials = user.name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
+  const initials = (user.displayName || 'U')
+  .split(' ')
+  .map(w => w[0])
+  .join('')
+  .toUpperCase()
+  .slice(0, 2);
 
   // Dropdown position (fixed, below the trigger button)
   const dropdownStyle = (): React.CSSProperties => {
@@ -46,8 +54,8 @@ export default function UserMenu({ onStart }: Props) {
       {/* Trigger button */}
       <button ref={btnRef} data-um="trigger" onClick={() => { setOpen(!open); setShowHistory(false); setConfirmClear(false); }}
         className="flex items-center gap-2 px-3 py-1.5 rounded-xl glass hover:bg-white/10 transition-all group">
-        <div className={`w-8 h-8 rounded-lg bg-gradient-to-br ${user.avatar} flex items-center justify-center text-white text-xs font-bold`}>{initials}</div>
-        <span className="hidden md:block text-sm text-slate-300 group-hover:text-white max-w-[100px] truncate">{user.name.split(' ')[0]}</span>
+        <div className={`w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white text-xs font-bold`}>{initials}</div>
+        <span className="hidden md:block text-sm text-slate-300 group-hover:text-white max-w-[100px] truncate">{(user.displayName || 'User').split(' ')[0]}</span>
         <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
 
@@ -58,8 +66,8 @@ export default function UserMenu({ onStart }: Props) {
           {/* User info + stats */}
           <div className="p-5 border-b border-white/5 bg-gradient-to-br from-indigo-500/5 to-purple-500/5">
             <div className="flex items-center gap-3 mb-4">
-              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${user.avatar} flex items-center justify-center text-white text-lg font-bold`}>{initials}</div>
-              <div className="min-w-0"><p className="font-semibold text-white truncate">{user.name}</p><p className="text-xs text-slate-400 truncate">{user.email}</p></div>
+              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white text-lg font-bold`}>{initials}</div>
+              <div className="min-w-0"><p className="font-semibold text-white truncate">{user.displayName}</p><p className="text-xs text-slate-400 truncate">{user.email}</p></div>
             </div>
             <div className="grid grid-cols-3 gap-2">
               <Stat value={totalQ} label="Quizzes" color="text-indigo-400" />
@@ -141,7 +149,12 @@ function HistoryRow({ entry }: { entry: any }) {
         </div>
         <div className="flex items-center gap-2 mt-0.5">
           <span className="text-[11px] text-slate-500">{entry.correct}/{entry.total} correct</span>
-          <span className="text-[11px] text-slate-500 flex items-center gap-1"><Clock className="w-2.5 h-2.5" />{new Date(entry.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}</span>
+          <span className="text-[11px] text-slate-500 flex items-center gap-1"><Clock className="w-2.5 h-2.5" />{entry.date
+  ? new Date(entry.date).toLocaleDateString('en-IN', {
+      day: 'numeric',
+      month: 'short',
+    })
+  : 'Today'}</span>
         </div>
       </div>
     </div>
