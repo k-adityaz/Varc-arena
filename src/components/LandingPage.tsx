@@ -2,11 +2,50 @@
 // LANDING PAGE — Hero, Why, How It Works, Categories, Testimonials, Footer
 // TopNav is rendered by App.tsx above this page
 // ============================================================
-import { Brain, Clock, Trophy, ChevronRight, Sparkles, Target, Users, BookOpen, UserPlus, LayoutGrid, LineChart, Star, Quote } from 'lucide-react';
 
+import { Brain, Clock, Trophy, ChevronRight, Sparkles, Target, Users, BookOpen, UserPlus, LayoutGrid, LineChart, Star, Quote } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
 interface Props { onStart: () => void }
 
 export default function LandingPage({ onStart }: Props) {
+  const {
+  isAuthenticated,
+  xp,
+  level,
+  history,
+} = useAuth();
+
+const currentLevelXp = xp % 500;
+
+const xpProgress =
+  (currentLevelXp / 500) * 100;
+
+const streak = [
+  ...new Set(
+    history
+      .filter(h => h.date)
+      .map(h =>
+        new Date(h.date!)
+          .toDateString()
+      )
+  ),
+].length;
+
+const levelTitles = [
+  "Rookie",
+  "Learner",
+  "Solver",
+  "Challenger",
+  "VARC Warrior",
+  "Mind Hacker",
+  "Elite Reader",
+  "CAT Slayer",
+  "Titan",
+  "Legend",
+];
+
+const levelTitle =
+  levelTitles[level - 1] || "Immortal";
   return (
     <div className="relative overflow-hidden">
       {/* Background */}
@@ -39,10 +78,94 @@ export default function LandingPage({ onStart }: Props) {
             The only platform that trains your VARC speed and accuracy together. 
             Stop guessing. <span className="text-slate-200 font-medium">Start scoring.</span>
           </p>
+{/* ===== PLAYER HUD ===== */}
+{isAuthenticated && (
+  <div className="max-w-2xl mx-auto mb-10 animate-slide-up stagger-4">
 
+    <div className="glass rounded-3xl p-5 border border-indigo-500/20 relative overflow-hidden">
+
+      {/* Glow */}
+      <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-3xl" />
+
+      <div className="relative z-10">
+
+        {/* Top */}
+        <div className="flex items-center justify-between mb-4">
+
+          <div>
+            <div className="flex items-center gap-3">
+
+              <div className="relative">
+
+  {/* Glow */}
+  <div className="absolute inset-0 rounded-2xl bg-indigo-500/30 blur-md animate-pulse" />
+
+  {/* Level Box */}
+  <div className="relative w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-black text-lg shadow-lg shadow-indigo-500/20">
+    {level}
+  </div>
+
+</div>
+
+              <div className="text-left">
+                <h3 className="text-white font-black text-xl">
+                  Level {level}
+                </h3>
+
+                <p className="text-sm bg-gradient-to-r from-indigo-300 to-pink-300 bg-clip-text text-transparent font-semibold">
+                  {levelTitle}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-right">
+
+            <div className="text-indigo-300 font-black text-lg">
+              ⚡ {xp} XP
+            </div>
+
+            <div className="text-orange-300 text-sm font-semibold">
+              🔥 {streak} Day Streak
+            </div>
+
+          </div>
+        </div>
+
+        {/* Progress */}
+        <div>
+
+          <div className="flex items-center justify-between text-xs mb-2">
+            <span className="text-slate-400">
+              Progress to Level {level + 1}
+            </span>
+
+            <span className="text-indigo-300 font-bold">
+              {currentLevelXp}/500 XP
+            </span>
+          </div>
+
+          <div className="h-4 bg-black/30 rounded-full overflow-hidden border border-white/10">
+
+            <div
+  className="relative h-full rounded-full bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500 transition-all duration-1000 shadow-[0_0_20px_rgba(99,102,241,0.5)] overflow-hidden"
+              style={{
+                width: `${Math.min(xpProgress, 100)}%`,
+              }}
+            >
+
+  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
+
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+)}
           {/* CTA */}
           <button onClick={onStart}
-            className="group px-8 py-4 rounded-2xl text-white font-semibold text-lg flex items-center gap-3 hover:scale-105 active:scale-95 mx-auto transition-all duration-300 animate-slide-up stagger-4"
+            className="group px-8 py-4 rounded-2xl text-white font-semibold text-lg flex items-center gap-3 hover:scale-105 active:scale-95 mx-auto transition-all duration-300 animate-slide-up stagger-6"
             style={{ background: 'linear-gradient(135deg, #667eea, #764ba2)', boxShadow: '0 0 40px rgba(99,102,241,0.25)' }}>
             Try a Free Question
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

@@ -6,7 +6,13 @@ import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 
 export default function Dashboard() {
-  const { user, history, isAuthenticated } = useAuth();
+  const {
+  user,
+  history,
+  isAuthenticated,
+  xp,
+  level,
+} = useAuth();
   const [focusMode, setFocusMode] = useState(false);
 
   // ---- Computed stats ----
@@ -17,7 +23,26 @@ export default function Dashboard() {
   const accuracy = totalAnswered ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
   const totalTime = history.reduce((s, h) => s + h.timeTaken, 0);
   const bestScore = totalQuizzes ? Math.max(...history.map(h => h.percentage)) : 0;
+const currentLevelXp = xp % 500;
 
+const xpProgress =
+  (currentLevelXp / 500) * 100;
+
+const levelTitles = [
+  "Rookie",
+  "Learner",
+  "Solver",
+  "Challenger",
+  "VARC Warrior",
+  "Mind Hacker",
+  "Elite Reader",
+  "CAT Slayer",
+  "Titan",
+  "Legend",
+];
+
+const levelTitle =
+  levelTitles[level - 1] || "Immortal";
   // Streak
   const getStreak = () => {
     if (!history.length) return 0;
@@ -92,7 +117,78 @@ export default function Dashboard() {
               <p className="text-slate-400 text-sm">{totalQuizzes === 0 ? "Start your first quiz to see stats here!" : `${streak} day streak 🔥 • ${totalQuizzes} quizzes completed`}</p>
             </div>
           </div>
+{/* ---- XP CARD ---- */}
+<div className="glass rounded-3xl p-6 mb-8 overflow-hidden relative animate-slide-up">
 
+  {/* Glow */}
+  <div className="absolute top-0 right-0 w-40 h-40 bg-indigo-500/10 blur-3xl rounded-full" />
+
+  <div className="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+
+    {/* Left */}
+    <div>
+      <div className="flex items-center gap-3 mb-2">
+        <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-2xl font-black shadow-lg shadow-indigo-500/20">
+          {level}
+        </div>
+
+        <div>
+          <div className="flex items-center gap-3">
+
+  <h2 className="text-4xl font-black text-white tracking-tight">
+    Level {level}
+  </h2>
+
+  <div className="px-3 py-1 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 text-white text-xs font-bold shadow-lg shadow-pink-500/20 animate-pulse">
+    HOT STREAK
+  </div>
+
+</div>
+
+          <p className="text-lg font-semibold bg-gradient-to-r from-indigo-300 to-pink-300 bg-clip-text text-transparent">
+  {levelTitle}
+</p>
+        </div>
+      </div>
+
+      <div className="flex items-center gap-2 mt-2">
+
+  <div className="px-3 py-1 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-sm font-bold">
+    ⚡ {xp} XP
+  </div>
+
+  <div className="px-3 py-1 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-sm font-bold">
+    🔥 Active
+  </div>
+
+</div>
+    </div>
+
+    {/* Right */}
+    <div className="w-full md:w-80">
+
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-xs text-slate-400">
+          Progress to Level {level + 1}
+        </span>
+
+        <span className="text-xs font-bold text-indigo-300">
+          {currentLevelXp}/500 XP
+        </span>
+      </div>
+
+      <div className="h-5 bg-black/30 rounded-full overflow-hidden border border-white/10 shadow-inner">
+
+        <div
+          className="h-full bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500 rounded-full transition-all duration-1000 shadow-[0_0_20px_rgba(99,102,241,0.5)]"
+          style={{
+            width: `${xpProgress}%`,
+          }}
+        />
+      </div>
+    </div>
+  </div>
+</div>
           {/* ---- Stat cards ---- */}
           <div className={`grid ${focusMode ? 'grid-cols-2' : 'grid-cols-2 md:grid-cols-4'} gap-3 mb-8 animate-slide-up stagger-1`}>
             <StatCard icon={<Trophy className="w-5 h-5" />} value={avgScore + '%'} label="Avg Score" gradient="from-indigo-500 to-purple-600" focus={focusMode} />

@@ -10,9 +10,9 @@ import { useAuth } from '../context/AuthContext';
 interface Props { onStart: () => void }
 
 export default function UserMenu({ onStart }: Props) {
-  const { user, logout } = useAuth();
+  const { user, logout, history } = useAuth();
 
-const history: any[] = [];
+
 const clearHistory = () => {};
   const [open, setOpen] = useState(false);
   const [showHistory, setShowHistory] = useState(false);

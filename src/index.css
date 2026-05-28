@@ -109,3 +109,16 @@
 
 /* Base body styles */
 body { background: #0a0a1a; color: #e2e8f0; overflow-x: hidden; }
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}

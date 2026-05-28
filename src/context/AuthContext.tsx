@@ -31,7 +31,8 @@ type HistoryEntry = {
   correct: number;
   wrong: number;
   skipped: number;
-  createdAt?: string;
+  date?: string;
+createdAt?: string;
 };
 
 type AuthContextType = {
@@ -39,8 +40,13 @@ type AuthContextType = {
   login: () => Promise<void>;
   logout: () => Promise<void>;
   isAuthenticated: boolean;
-  history: any[];
-  setHistory: React.Dispatch<React.SetStateAction<any[]>>;
+  history: HistoryEntry[];
+  setHistory: React.Dispatch<
+  React.SetStateAction<HistoryEntry[]>
+>;
+   xp: number;
+  level: number;
+
   addHistoryEntry: (entry: HistoryEntry) => Promise<void>;
 };
 
@@ -51,22 +57,27 @@ const AuthContext = createContext<AuthContextType>({
   isAuthenticated: false,
   history: [],
   setHistory: () => {},
+  xp: 0,
+level: 1,
   addHistoryEntry: async () => {},
 });
 export const AuthProvider = ({ children }: any) => {
   const [user, setUser] = useState<User | null>(null);
-const [history, setHistory] = useState<any[]>([]);
+const [history, setHistory] = useState<HistoryEntry[]>([]);
+const [xp, setXp] = useState(0);
+const [level, setLevel] = useState(1);
   useEffect(() => {
   const unsubscribe = onAuthStateChanged(
     auth,
     async (currentUser) => {
       setUser(currentUser);
 
-      if (!currentUser) {
-        setHistory([]);
-        return;
-      }
-
+    if (!currentUser) {
+  setHistory([]);
+  setXp(0);
+  setLevel(1);
+  return;
+}
       const snap = await getDoc(
         doc(db, "users", currentUser.uid)
       );
@@ -74,6 +85,12 @@ const [history, setHistory] = useState<any[]>([]);
       setHistory(
         (snap.exists() && snap.data().history) || []
       );
+      if (snap.exists()) {
+  const data = snap.data();
+
+  setXp(data.xp || 0);
+  setLevel(data.level || 1);
+}
     }
   );
 
@@ -105,6 +122,8 @@ const [history, setHistory] = useState<any[]>([]);
     const data = userDoc.data();
 
     setHistory(data.history || []);
+    setXp(data.xp || 0);
+setLevel(data.level || 1);
   }
 };
   const logout = async () => {
@@ -123,14 +142,70 @@ const [history, setHistory] = useState<any[]>([]);
     date: new Date().toISOString(),
   };
 
+  // ===== XP SYSTEM =====
+
+  let earnedXp = 0;
+
+  // Difficulty XP
+  if (entry.difficulty === "easy") {
+    earnedXp += entry.correct * 8;
+  }
+
+  else if (entry.difficulty === "medium") {
+    earnedXp += entry.correct * 12;
+  }
+
+  else if (entry.difficulty === "hard") {
+    earnedXp += entry.correct * 18;
+  }
+
+  else {
+    earnedXp += entry.correct * 25;
+  }
+
+  // Accuracy bonus
+  if (entry.percentage >= 90) {
+    earnedXp += 50;
+  }
+
+  else if (entry.percentage >= 75) {
+    earnedXp += 25;
+  }
+
+  // Speed bonus
+  if (
+  entry.timeTaken <
+  entry.total * 25
+) {
+    earnedXp += 20;
+  }
+
+  // Final XP + Level
+  const currentXp = xp || 0;
+
+const newXp = currentXp + earnedXp;
+
+  const newLevel =
+    Math.floor(newXp / 500) + 1;
+
+  // ===== FIREBASE SAVE =====
+
   await updateDoc(userRef, {
     history: arrayUnion(newEntry),
+
+    xp: newXp,
+    level: newLevel,
   });
+
+  // ===== LOCAL UPDATE =====
 
   setHistory((prev) => [
     newEntry,
     ...prev,
   ]);
+
+  setXp(newXp);
+  setLevel(newLevel);
 };
 
   return (
@@ -142,6 +217,8 @@ const [history, setHistory] = useState<any[]>([]);
     isAuthenticated: !!user,
     history,
     setHistory,
+    xp,
+level,
     addHistoryEntry,
   }}
 >
