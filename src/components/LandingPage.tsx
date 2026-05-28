@@ -140,21 +140,21 @@ const levelTitle =
               Progress to Level {level + 1}
             </span>
 
-            <span className="text-indigo-300 font-bold">
+            <span className="text-indigo-200 font-extrabold drop-shadow-[0_0_8px_rgba(129,140,248,0.8)]">
               {currentLevelXp}/500 XP
             </span>
           </div>
 
-          <div className="h-3 md:h-4 bg-black/30 rounded-full overflow-hidden border border-white/10">
+          <div className="h-4 md:h-4 bg-black/70 rounded-full overflow-hidden border border-white/10 shadow-inner backdrop-blur-md">
 
             <div
-  className="relative h-full rounded-full bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500 transition-all duration-1000 shadow-[0_0_20px_rgba(99,102,241,0.5)] overflow-hidden"
+  className="relative h-full rounded-full bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500 transition-all duration-1000 overflow-hidden shadow-[0_0_25px_rgba(99,102,241,0.9)]"
               style={{
                 width: `${Math.min(xpProgress, 100)}%`,
               }}
             >
 
-  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
+  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent animate-shimmer" />
 
 </div>
           </div>
