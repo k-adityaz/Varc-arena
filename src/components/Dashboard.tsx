@@ -2,7 +2,7 @@
 // DASHBOARD — Premium analytics with line graph, stats, history
 // ============================================================
 import { BarChart3, Trophy, Flame, Clock, Target, TrendingUp, Calendar, BookOpen, CheckCircle2, XCircle, Eye, EyeOff } from 'lucide-react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 
 export default function Dashboard() {
@@ -25,8 +25,10 @@ export default function Dashboard() {
   const bestScore = totalQuizzes ? Math.max(...history.map(h => h.percentage)) : 0;
 const currentLevelXp = xp % 500;
 
-const xpProgress =
-  (currentLevelXp / 500) * 100;
+const xpProgress = Math.min(
+  (currentLevelXp / 500) * 100,
+  100
+);
 
 const levelTitles = [
   "Rookie",
@@ -77,7 +79,13 @@ const levelTitle =
     diffStats[h.difficulty].correct += h.correct;
     diffStats[h.difficulty].count++;
   });
-  const diffBarColors: Record<string, string> = { Easy: 'bg-emerald-500', Medium: 'bg-amber-500', Hard: 'bg-red-500', 'CAT Level': 'bg-violet-500' };
+  const diffBarColors: Record<string, string> = {
+  easy: 'bg-emerald-500',
+  medium: 'bg-amber-500',
+  hard: 'bg-red-500',
+  'cat level': 'bg-violet-500',
+  cat: 'bg-violet-500',
+};
 
   const initials = (user?.displayName || 'User')
   .split(' ')
@@ -139,7 +147,7 @@ const levelTitle =
     Level {level}
   </h2>
 
-  <div className="px-3 py-1 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 text-white text-xs font-bold shadow-lg shadow-pink-500/20 animate-pulse">
+  <div className="px-3 py-1 rounded-full bg-gradient-to-r from-indigo-500 to-violet-500 text-white text-xs font-bold shadow-lg shadow-pink-500/20 animate-pulse">
     HOT STREAK
   </div>
 
@@ -198,11 +206,11 @@ const levelTitle =
           </div>
 
           {/* ---- LINE GRAPH: Score Trend ---- */}
-          <div className="glass rounded-2xl p-6 mb-8 animate-slide-up stagger-2">
+          <div className="glass rounded-3xl p-7 mb-8 border border-white/[0.04] shadow-[0_10px_40px_rgba(0,0,0,0.35)] animate-slide-up stagger-2">
             <div className="flex items-center justify-between mb-6">
-              <h3 className="font-bold text-white flex items-center gap-2"><TrendingUp className="w-4 h-4 text-indigo-400" />Score Trend</h3>
+              <h3 className="font-semibold tracking-tight text-white flex items-center gap-2 text-[17px]"><TrendingUp className="w-4 h-4 text-indigo-400" />Score Trend</h3>
               {totalQuizzes > 0 && (
-                <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${trendUp ? 'bg-emerald-500/10 text-emerald-400' : 'bg-red-500/10 text-red-400'}`}>
+                <span className={`text-xs font-semibold px-3 py-1.5 rounded-full shadow-inner ${trendUp ? 'bg-emerald-500/8 border border-emerald-400/10 text-emerald-300 backdrop-blur-xl' : 'bg-red-500/10 text-red-400'}`}>
                   {trendUp ? '↑ Improving' : '↓ Needs focus'}
                 </span>
               )}
@@ -211,22 +219,23 @@ const levelTitle =
             {chartData.length === 0 ? (
               <p className="text-sm text-slate-500 text-center py-12">No data yet. Complete quizzes to see your trend line!</p>
             ) : (
-              <div className="relative" style={{ height: '280px' }}>
+              <div className="relative" style={{ height: '340px' }}>
                 {/* ===== Y-AXIS (score % labels, vertical on the left) ===== */}
-                <div className="absolute left-0 top-0 bottom-[40px] flex flex-col justify-between text-[11px] text-slate-500 font-mono w-[32px] text-right pr-2">
-                  <span>100%</span>
-                  <span>75%</span>
-                  <span>50%</span>
-                  <span>25%</span>
-                  <span>0%</span>
-                </div>
+                <div className="absolute left-0 top-0 bottom-[40px] flex flex-col justify-between text-[10px] text-slate-600 font-medium w-[32px] text-right pr-2">
+  <span>100</span>
+  <span>75</span>
+  <span>50</span>
+  <span>25</span>
+  <span>0</span>
+</div>
 
                 {/* ===== Chart body ===== */}
+                
                 <div className="absolute left-[40px] right-0 top-0 bottom-[40px]">
-
+<div className="absolute inset-0 bg-gradient-to-b from-indigo-500/[0.03] via-transparent to-transparent pointer-events-none" />
                   {/* Horizontal grid lines */}
                   {[0, 25, 50, 75, 100].map(v => (
-                    <div key={v} className="absolute left-0 right-0 border-t border-white/[0.04]" style={{ bottom: `${v}%` }} />
+                    <div key={v} className="absolute left-0 right-0 border-t border-white/[0.025]" style={{ bottom: `${v}%` }} />
                   ))}
 
                   {/* Plot points (absolutely positioned dots + lines + fill) */}
@@ -248,35 +257,44 @@ const levelTitle =
                           className="absolute inset-0"
                           style={{
                             clipPath: `polygon(${areaStr})`,
-                            background: 'linear-gradient(to top, rgba(102,126,234,0.05), rgba(102,126,234,0.25))',
+                            background: `
+linear-gradient(
+to top,
+rgba(99,102,241,0.02),
+rgba(99,102,241,0.08),
+rgba(139,92,246,0.18)
+)
+`,
+filter: 'blur(0.2px)',
                           }}
                         />
 
                         {/* The line using SVG (single thin SVG covering the area) */}
                         <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-                          <polyline
+                          <defs>
+  <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stopColor="#6366f1" />
+    <stop offset="50%" stopColor="#8b5cf6" />
+    <stop offset="100%" stopColor="#06b6d4" />
+  </linearGradient>
+</defs>
+<polyline
+className="animate-[dash_2s_ease_forwards]"
                             points={chartData.map((h, i) => `${getX(i)},${getY(h.percentage)}`).join(' ')}
-                            fill="none" stroke="#667eea" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round"
+                            fill="none" stroke="url(#lineGradient)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"
+                            style={{
+  filter: 'drop-shadow(0 0 10px rgba(99,102,241,0.45))'
+}}
                           />
                         </svg>
 
                         {/* Dots + score labels on each point */}
                         {chartData.map((h, i) => (
                           <div key={i}>
-                            {/* Score label above dot */}
-                            <div
-                              className="absolute text-[10px] font-bold font-mono text-indigo-300 whitespace-nowrap"
-                              style={{
-                                left: `${getX(i)}%`,
-                                bottom: `${getY(h.percentage) + 2}%`,
-                                transform: 'translateX(-50%)',
-                              }}
-                            >
-                              {h.percentage}%
-                            </div>
+                      
                             {/* Dot */}
                             <div
-                              className="absolute w-2.5 h-2.5 rounded-full bg-indigo-500 border-2 border-[#0a0a1a] shadow-lg shadow-indigo-500/30"
+                              className="absolute w-2.5 h-2.5 rounded-full bg-white border border-indigo-400/70"
                               style={{
                                 left: `${getX(i)}%`,
                                 bottom: `${getY(h.percentage)}%`,
@@ -295,14 +313,21 @@ const levelTitle =
                   <div className="flex w-full justify-between">
                     {chartData.map((h, i) => {
                       // Show only every Nth label to avoid overlap
-                      const showEvery = chartData.length > 8 ? 3 : chartData.length > 5 ? 2 : 1;
+                      const showEvery =
+  chartData.length > 12
+    ? 4
+    : chartData.length > 8
+    ? 3
+    : chartData.length > 5
+    ? 2
+    : 1;
                       const show = i % showEvery === 0 || i === chartData.length - 1;
                       return (
                         <div key={i} className="text-center" style={{ width: '0', flex: `${1}` }}>
                           {/* Tick mark */}
                           <div className="w-px h-2 bg-slate-700 mx-auto mb-1" />
                           {show && (
-                            <span className="text-[10px] text-slate-500 whitespace-nowrap">
+                            <span className="text-[10px] text-slate-600 font-medium whitespace-nowrap">
                               {new Date(h.date || h.createdAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}
                             </span>
                           )}
@@ -378,7 +403,17 @@ const levelTitle =
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2">
-                          <span className="text-sm font-medium text-white">{h.difficulty}</span>
+                          <span className="text-sm font-medium text-white ">
+  {(
+  {
+    easy: 'Easy',
+    medium: 'Medium',
+    hard: 'Hard',
+    cat: 'CAT Level',
+    'cat level': 'CAT Level',
+  } as Record<string, string>
+)[h.difficulty] || h.difficulty}
+</span>
                           <span className={`text-sm font-bold ${c}`}>{h.percentage}%</span>
                         </div>
                         <div className="flex items-center gap-2 text-[11px] text-slate-500">

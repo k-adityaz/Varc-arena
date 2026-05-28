@@ -7,7 +7,7 @@ import { Clock, ChevronLeft, Flag, X, CheckCircle2, XCircle, AlertCircle, BookOp
 import { difficultyConfig } from '../data';
 import { playTick, playWarnTick, playSuccess, playError, vibrate } from '../utils/sound';
 import UserMenu from './UserMenu';
-import { shuffleArray } from '../utils/shuffle';
+
 interface Props {
   questions: any[];
   difficulty: string;
@@ -27,7 +27,7 @@ const LETTERS = ['A', 'B', 'C', 'D'];
 
 export default function QuizPage({ questions, difficulty, onFinish, onQuit }: Props) {
   const [qi, setQi] = useState(0);                    // current question index
-  const [randomizedQuestions] = useState(() => shuffleArray(questions));
+  const randomizedQuestions = questions;
   const [answers, setAnswers] = useState<(number | null)[]>(questions.map(() => null));
   const [timeLeft, setTimeLeft] = useState(45);       // seconds remaining
   const [timeTaken, setTimeTaken] = useState<number[]>(questions.map(() => 0));
