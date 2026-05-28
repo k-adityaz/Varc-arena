@@ -50,8 +50,8 @@ const levelTitle =
     <div className="relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-grid-pattern" />
-      <div className="absolute top-20 left-10 w-72 h-72 bg-indigo-600/20 rounded-full blur-[100px] animate-float" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-600/15 rounded-full blur-[120px] animate-float" style={{ animationDelay: '3s' }} />
+      <div className="absolute top-20 left-10 w-72 h-72 bg-indigo-600/20 rounded-full blur-[70px] md:blur-[100px] animate-float" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-600/15 rounded-full blur-[80px] md:blur-[120px] animate-float" style={{ animationDelay: '3s' }} />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-[150px]" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] border border-indigo-500/5 rounded-full animate-rotate-slow" />
 
@@ -60,7 +60,7 @@ const levelTitle =
         {/* ============================================================ */}
         {/* HERO SECTION */}
         {/* ============================================================ */}
-        <div className="max-w-6xl mx-auto px-6 md:px-12 pt-12 md:pt-20 pb-24 text-center">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6 md:px-12 pt-8 md:pt-20 pb-16 md:pb-24 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-indigo-300 mb-8 animate-slide-up stagger-1">
             <Sparkles className="w-4 h-4" />
@@ -68,7 +68,7 @@ const levelTitle =
           </div>
 
           {/* Headline */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 animate-slide-up stagger-2 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-6 animate-slide-up stagger-2 leading-tight">
             <span className="text-white">Master </span><span className="gradient-text">VARC</span><br />
             <span className="text-white">Like a </span><span className="gradient-text-warm">Pro</span>
           </h1>
@@ -82,7 +82,7 @@ const levelTitle =
 {isAuthenticated && (
   <div className="max-w-2xl mx-auto mb-10 animate-slide-up stagger-4">
 
-    <div className="glass rounded-3xl p-5 border border-indigo-500/20 relative overflow-hidden">
+    <div className="glass rounded-3xl p-5 border border-indigo-400/30 relative overflow-hidden bg-black/40 md:bg-white/[0.04] backdrop-blur-xl shadow-[0_0_35px_rgba(99,102,241,0.18)]">
 
       {/* Glow */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-3xl" />
@@ -90,7 +90,7 @@ const levelTitle =
       <div className="relative z-10">
 
         {/* Top */}
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
 
           <div>
             <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ const levelTitle =
             </div>
           </div>
 
-          <div className="text-right">
+          <div className="text-left sm:text-right">
 
             <div className="text-indigo-300 font-black text-lg">
               ⚡ {xp} XP
@@ -145,7 +145,7 @@ const levelTitle =
             </span>
           </div>
 
-          <div className="h-4 bg-black/30 rounded-full overflow-hidden border border-white/10">
+          <div className="h-3 md:h-4 bg-black/30 rounded-full overflow-hidden border border-white/10">
 
             <div
   className="relative h-full rounded-full bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500 transition-all duration-1000 shadow-[0_0_20px_rgba(99,102,241,0.5)] overflow-hidden"
@@ -165,8 +165,11 @@ const levelTitle =
 )}
           {/* CTA */}
           <button onClick={onStart}
-            className="group px-8 py-4 rounded-2xl text-white font-semibold text-lg flex items-center gap-3 hover:scale-105 active:scale-95 mx-auto transition-all duration-300 animate-slide-up stagger-6"
-            style={{ background: 'linear-gradient(135deg, #667eea, #764ba2)', boxShadow: '0 0 40px rgba(99,102,241,0.25)' }}>
+            className="group w-full sm:w-auto px-8 py-4 rounded-2xl text-white font-bold text-lg flex items-center justify-center gap-3 hover:scale-105 active:scale-95 mx-auto transition-all duration-300 animate-slide-up stagger-6 shadow-[0_0_25px_rgba(99,102,241,0.45)] md:shadow-[0_0_40px_rgba(99,102,241,0.45)]"
+            style={{
+  background:
+    'linear-gradient(135deg, #6366f1 0%, #8b5cf6 55%, #d946ef 100%)',
+}}>
             Try a Free Question
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
