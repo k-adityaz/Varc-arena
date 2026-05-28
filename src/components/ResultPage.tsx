@@ -2,7 +2,7 @@
 // RESULT PAGE — Score card, category breakdown, detailed review
 // Shows "Go to Home", "Change Difficulty", "Try Again" buttons
 // ============================================================
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { RotateCcw, Home, ChevronDown, ChevronUp, CheckCircle2, XCircle, Clock, Target, Brain, BarChart3, Flame } from 'lucide-react';
 import { difficultyConfig } from '../data';
 import { useAuth } from '../context/AuthContext';
@@ -21,7 +21,8 @@ interface Props {
 
 export default function ResultPage({ questions, answers, timeTaken, difficulty, onRetry, onHome, onGoToLanding }: Props) {
   const [expanded, setExpanded] = useState<number | null>(null);
-  const { isAuthenticated, user } = useAuth();
+  const { isAuthenticated, user, addHistoryEntry } = useAuth();
+const savedRef = useRef(false);
 
   // ---- Calculate results ----
   const correct = questions.filter((q: any, i: number) => answers[i] === q.correctAnswer).length;
@@ -50,6 +51,24 @@ export default function ResultPage({ questions, answers, timeTaken, difficulty, 
 
   const typeLabels: Record<string, string> = { rc: 'Reading Comprehension', 'para-jumble': 'Para Jumble', 'sentence-correction': 'Sentence Correction', vocabulary: 'Vocabulary', grammar: 'Grammar', 'critical-reasoning': 'Critical Reasoning', 'fill-in-blanks': 'Fill in the Blanks' };
   const fmt = (s: number) => `${Math.floor(s / 60)}:${(s % 60).toString().padStart(2, '0')}`;
+useEffect(() => {
+  if (!isAuthenticated) return;
+
+  if (savedRef.current) return;
+
+  savedRef.current = true;
+
+  addHistoryEntry({
+    difficulty,
+    score: correct,
+    total: questions.length,
+    percentage: pct,
+    timeTaken: totalTime,
+    correct,
+    wrong,
+    skipped,
+  });
+}, []);
 
   return (
     <div className="min-h-screen relative overflow-hidden">
