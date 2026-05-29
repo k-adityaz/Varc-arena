@@ -16,6 +16,7 @@
   function AppContent() {
     const [screen, setScreen] = useState<Screen>('home');
     const [difficulty, setDifficulty] = useState('medium');
+    const [topic, setTopic] = useState('mixed');
     const [questions, setQuestions] = useState<any[]>([]);
     const [answers, setAnswers] = useState<(number | null)[]>([]);
     const [timeTaken, setTimeTaken] = useState<number[]>([]);
@@ -23,8 +24,14 @@
     const { addHistoryEntry, isAuthenticated } = useAuth();
 
     // Start a quiz with the chosen difficulty
-    const startQuiz = useCallback((diff: string) => {
-      const qs = getRandomQuestions(diff, 10);
+    const startQuiz = useCallback(
+  (diff: string, topicName: string) => {
+    const qs = getRandomQuestions(
+  diff,
+  topicName,
+  10
+);
+setTopic(topicName);
       setDifficulty(diff);
       setQuestions(qs);
       setAnswers(new Array(qs.length).fill(null));

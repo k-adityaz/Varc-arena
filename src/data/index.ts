@@ -45,8 +45,30 @@ function shuffleOptions(q: Question): Question {
 }
 
 // ---- Get N random questions for a given difficulty ----
-export function getRandomQuestions(difficulty: string, count: number): Question[] {
-  const pool = allQuestions.filter(q => q.difficulty === difficulty);
-  const shuffled = [...pool].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, count).map(shuffleOptions);
+export function getRandomQuestions(
+  difficulty: string,
+  topic: string,
+  count: number
+): Question[] {
+
+  const pool = allQuestions.filter(q => {
+
+    if (topic === 'mixed') {
+      return q.difficulty === difficulty;
+    }
+
+    return (
+      q.difficulty === difficulty &&
+      q.type === topic
+    );
+  });
+
+  const shuffled = [...pool].sort(
+    () => Math.random() - 0.5
+  );
+
+  return shuffled
+    .slice(0, count)
+    .map(shuffleOptions);
 }
+

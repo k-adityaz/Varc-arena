@@ -3,17 +3,9 @@
 // Card layout: icon top-left, title+sub middle, time+button bottom
 // ============================================================
 import { Clock, Flame, Crown, Zap, Target } from 'lucide-react';
-import { useState } from 'react';
 import { difficultyConfig } from '../data';
 
-interface Props {
-  onSelect: (
-    diff: string,
-    topic: string
-  ) => void;
-
-  onBack: () => void;
-}
+interface Props { onSelect: (diff: string) => void; onBack: () => void }
 
 const levels = [
   { key: 'easy',   icon: Zap,    title: 'Easy',       sub: 'Build your foundation',  accent: 'text-emerald-400', bg: 'from-emerald-400 to-green-500',  grad: 'from-emerald-500/10 to-green-600/10',  pillBg: 'bg-emerald-500',   shadow: 'hover:shadow-[0_0_30px_rgba(16,185,129,0.2)]' },
@@ -21,17 +13,8 @@ const levels = [
   { key: 'hard',   icon: Flame,  title: 'Hard',       sub: 'Advanced challenge',     accent: 'text-red-400',     bg: 'from-red-400 to-rose-500',        grad: 'from-red-500/10 to-rose-600/10',       pillBg: 'bg-red-500',      shadow: 'hover:shadow-[0_0_30px_rgba(239,68,68,0.2)]' },
   { key: 'cat',    icon: Crown,  title: 'CAT Level',  sub: 'Real CAT difficulty',    accent: 'text-violet-400',  bg: 'from-violet-400 to-purple-600',   grad: 'from-violet-500/10 to-purple-700/10',  pillBg: 'bg-violet-500',   shadow: 'hover:shadow-[0_0_30px_rgba(139,92,246,0.2)]' },
 ];
-const topics = [
-  { key: 'mixed', label: 'Mixed', icon: '🎯' },
-  { key: 'rc', label: 'RC', icon: '📖' },
-  { key: 'vocabulary', label: 'Vocabulary', icon: '📚' },
-  { key: 'grammar', label: 'Grammar', icon: '✍️' },
-  { key: 'para-jumble', label: 'Para Jumble', icon: '🔀' },
-  { key: 'critical-reasoning', label: 'Reasoning', icon: '🧠' },
-];
 
 export default function DifficultySelect({ onSelect }: Props) {
-  const [topic, setTopic] = useState('mixed');
   return (
     <div className="relative overflow-hidden flex flex-col">
       <div className="absolute inset-0 bg-grid-pattern" />
@@ -41,59 +24,10 @@ export default function DifficultySelect({ onSelect }: Props) {
       <div className="relative z-10 w-full max-w-3xl mx-auto px-4 py-6 md:py-10 flex flex-col flex-1">
         {/* Header */}
         <div className="text-center mb-6 md:mb-10 animate-slide-up">
-          <h1 className="text-2xl md:text-4xl font-black text-white mb-2">Select <span className="gradient-text">Practice Mode</span></h1>
-          <p className="text-sm text-slate-400">
-  Choose your topic and difficulty level.
-</p>
+          <h1 className="text-2xl md:text-4xl font-black text-white mb-2">Select <span className="gradient-text">Difficulty</span></h1>
+          <p className="text-sm text-slate-400">Pick a level that matches your preparation.</p>
         </div>
-        <h3 className="text-white text-lg font-semibold text-center mb-4">
-  Choose Topic
-</h3>
-<div className="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-lg mx-auto w-full mb-8">
 
-  {topics.map((t) => (
-
-    <button
-      key={t.key}
-      onClick={() => setTopic(t.key)}
-      className={`
-        p-3 rounded-2xl min-h-[92px] border transition-all duration-300
-        ${
-          topic === t.key
-            ? 'border-indigo-500 bg-indigo-500/15 shadow-[0_0_20px_rgba(99,102,241,0.25)]'
-            : 'border-white/5 bg-white/[0.02] hover:bg-white/[0.04]'
-        }
-      `}
-    >
-
-      <div className="text-2xl mb-2">
-        {t.icon}
-      </div>
-
-      <div
-        className={`text-sm font-semibold ${
-          topic === t.key
-            ? 'text-white'
-            : 'text-slate-400'
-        }`}
-      >
-        {t.label}
-      </div>
-
-    </button>
-
-  ))}
-
-</div>
-<div className="text-center mb-4">
-  <span className="text-xs uppercase tracking-wider text-slate-500">
-    Selected Topic
-  </span>
-
-  <div className="text-lg font-bold text-indigo-300 mt-1">
-    {topics.find(t => t.key === topic)?.label}
-  </div>
-</div>
         {/* 2x2 Grid */}
         <div className="grid grid-cols-2 gap-3 md:gap-5 max-w-xl mx-auto w-full">
           {levels.map((lv, i) => {
@@ -102,7 +36,7 @@ export default function DifficultySelect({ onSelect }: Props) {
             return (
               <button
                 key={lv.key}
-                onClick={() => onSelect(lv.key, topic)}
+                onClick={() => onSelect(lv.key)}
                 className={`group text-left bg-gradient-to-br ${lv.grad} hover:brightness-150 ${lv.shadow} rounded-2xl md:rounded-3xl p-4 md:p-5 border border-white/5 hover:border-white/10 transition-all duration-500 animate-slide-up flex flex-col`}
                 style={{ animationDelay: `${0.05 + i * 0.08}s`, opacity: 0 }}
               >
