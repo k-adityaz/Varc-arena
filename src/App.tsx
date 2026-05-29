@@ -48,12 +48,18 @@ setTopic(topicName);
       const pct = Math.round((correct / questions.length) * 100);
 
       if (isAuthenticated) {
-        addHistoryEntry({
-          difficulty: difficulty,
-          score: correct, total: questions.length, percentage: pct,
-          timeTaken: totalTime, correct, wrong, skipped,
-        });
-      }
+  addHistoryEntry({
+    topic: topic,
+    difficulty: difficulty,
+    score: correct,
+    total: questions.length,
+    percentage: pct,
+    timeTaken: totalTime,
+    correct,
+    wrong,
+    skipped,
+  });
+}
 
       setAnswers(ans);
       setTimeTaken(time);
@@ -84,7 +90,7 @@ setTopic(topicName);
         {screen === 'results' && (
           <ResultPage
             questions={questions} answers={answers} timeTaken={timeTaken} difficulty={difficulty}
-            onRetry={() => startQuiz(difficulty)}
+            onRetry={() => startQuiz(difficulty, topic)}
             onHome={() => setScreen('level')}
             onGoToLanding={() => setScreen('home')}
           />

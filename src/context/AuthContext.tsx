@@ -23,6 +23,7 @@ import {
 import { auth, provider, db } from "../firebase.ts";
 
 type HistoryEntry = {
+  topic?: string;   // add this line
   difficulty: string;
   score: number;
   total: number;
@@ -32,8 +33,9 @@ type HistoryEntry = {
   wrong: number;
   skipped: number;
   date?: string;
-createdAt?: string;
+  createdAt?: string;
 };
+
 
 type AuthContextType = {
   user: User | null;

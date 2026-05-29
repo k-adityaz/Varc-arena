@@ -96,6 +96,64 @@ const levelTitle =
 
   // Line chart data — last 15 quizzes (reversed so oldest is left)
   const chartData = history.slice(0, 15).reverse();
+  // ===== PERFORMANCE COACH =====
+
+const topicStats: Record<
+  string,
+  { correct: number; total: number }
+> = {};
+
+history.forEach((h: any) => {
+  if (!h.topic || h.topic === 'mixed') return;
+
+  if (!topicStats[h.topic]) {
+    topicStats[h.topic] = {
+      correct: 0,
+      total: 0,
+    };
+  }
+
+  topicStats[h.topic].correct += h.correct;
+  topicStats[h.topic].total += h.total;
+});
+
+const topicPerformance = Object.entries(topicStats)
+  .map(([topic, stats]) => ({
+    topic,
+    accuracy:
+      stats.total > 0
+        ? Math.round(
+            (stats.correct / stats.total) * 100
+          )
+        : 0,
+  }))
+  .sort((a, b) => a.accuracy - b.accuracy);
+
+const weakestTopic =
+  topicPerformance[0];
+const strongestTopic =
+  topicPerformance[
+    topicPerformance.length - 1
+  ];
+
+
+const hasEnoughData =
+  topicPerformance.length >= 2;
+
+const formatTopic = (topic: string) => {
+  const map: Record<string, string> = {
+    rc: 'Reading Comprehension',
+    vocabulary: 'Vocabulary',
+    grammar: 'Grammar',
+    'para-jumble': 'Para Jumble',
+    'critical-reasoning': 'Critical Reasoning',
+  };
+
+  return map[topic] || topic;
+};
+  
+
+
 
   return (
     <div className={`max-w-6xl mx-auto px-4 md:px-8 py-8 transition-all duration-300 ${focusMode ? 'max-w-3xl' : ''}`}>
@@ -197,6 +255,78 @@ const levelTitle =
     </div>
   </div>
 </div>
+{weakestTopic && strongestTopic && (
+  <div className="glass rounded-3xl p-6 mb-8 animate-slide-up border border-white/5">
+
+    <div className="flex items-center gap-3 mb-5">
+      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-2xl">
+        🧠
+      </div>
+
+      <div>
+        <h3 className="text-xl font-bold text-white">
+          Performance Coach
+        </h3>
+
+        <p className="text-sm text-slate-400">
+          Personalized improvement insights
+        </p>
+      </div>
+    </div>
+
+    <div className="grid md:grid-cols-2 gap-4">
+
+      <div className="rounded-2xl bg-red-500/10 border border-red-500/20 p-4">
+        <div className="text-xs uppercase tracking-wider text-red-300 mb-2">
+          Focus Area
+        </div>
+
+        <div className="text-lg font-bold text-white">
+          {formatTopic(weakestTopic.topic)}
+        </div>
+
+        <div className="text-red-300 font-semibold">
+          {weakestTopic.accuracy}% Accuracy
+        </div>
+      </div>
+
+      <div className="rounded-2xl bg-emerald-500/10 border border-emerald-500/20 p-4">
+        <div className="text-xs uppercase tracking-wider text-emerald-300 mb-2">
+          Strongest Skill
+        </div>
+
+        <div className="text-lg font-bold text-white">
+          {formatTopic(strongestTopic.topic)}
+        </div>
+
+        <div className="text-emerald-300 font-semibold">
+  {strongestTopic.accuracy}% Accuracy
+</div>
+
+    </div>
+
+    <div className="mt-5 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 p-4">
+  <div className="text-xs uppercase tracking-wider text-indigo-300 mb-2">
+    Coach Recommendation
+  </div>
+
+  <p className="text-white leading-relaxed">
+    You answered most
+    <span className="font-bold text-indigo-300">
+      {" "}
+      {formatTopic(weakestTopic.topic)}
+    </span>
+    {" "}questions incorrectly.
+
+    Completing 2 focused practice sessions could
+    significantly improve your overall VARC accuracy.
+  </p>
+</div>
+
+</div>
+
+</div>
+)}
           {/* ---- Stat cards ---- */}
           <div className={`grid ${focusMode ? 'grid-cols-2' : 'grid-cols-2 md:grid-cols-4'} gap-3 mb-8 animate-slide-up stagger-1`}>
             <StatCard icon={<Trophy className="w-5 h-5" />} value={avgScore + '%'} label="Avg Score" gradient="from-indigo-500 to-purple-600" focus={focusMode} />
