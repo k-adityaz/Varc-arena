@@ -38,5 +38,2245 @@
     "correctAnswer": 1,
     "difficulty": "easy",
     "type": "vocabulary"
-  }
+  },
+  {
+  "id": 6,
+  "question": "What does the word 'Fastidious' mean?",
+  "options": [
+    "Very generous",
+    "Hard to please",
+    "Extremely brave",
+    "Careless"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Fastidious means difficult to satisfy and very particular about details. Therefore, 'Hard to please' is the correct answer.\n\nHinglish: Fastidious ka matlab hota hai kisi ko satisfy karna mushkil hona aur har chhoti detail par dhyan dena. Isliye 'Hard to please' sahi answer hai."
+},
+{
+  "id": 7,
+  "question": "Who is called a 'Sadist'?",
+  "options": [
+    "A person who enjoys helping others",
+    "A person who loves nature",
+    "A person who is happy inflicting pain on others",
+    "A person who speaks very little"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: A sadist is a person who derives pleasure from causing pain or suffering to others.\n\nHinglish: Sadist woh vyakti hota hai jo dusron ko dard ya takleef dekar khushi mehsoos karta hai. Isliye option C correct hai."
+},
+{
+  "id": 8,
+  "question": "What is the meaning of 'Malevolent'?",
+  "options": [
+    "Showing ill-will towards others",
+    "Very intelligent",
+    "Cheerful and friendly",
+    "Highly creative"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Malevolent refers to having or showing a desire to harm others or wishing bad things upon them.\n\nHinglish: Malevolent ka matlab hota hai dusron ka bura chahne wala ya unke prati buri bhavna rakhna. Isliye option A sahi hai."
+},
+{
+  "id": 9,
+  "question": "Who is an 'Altruist'?",
+  "options": [
+    "A selfish person",
+    "A person concerned with the welfare of others",
+    "A dishonest person",
+    "A careless person"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: An altruist is someone who cares about the well-being and welfare of other people.\n\nHinglish: Altruist woh vyakti hota hai jo dusron ki bhalai aur welfare ke baare mein sochta hai. Isliye option B correct hai."
+},
+{
+  "id": 10,
+  "question": "What does 'Contrite' mean?",
+  "options": [
+    "Full of pride",
+    "Feeling joyful",
+    "Feeling repentant for one's misdeeds",
+    "Being careless"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Contrite means feeling regret or remorse for having done something wrong.\n\nHinglish: Contrite ka matlab hota hai apni galtiyon ke liye sachcha pachtawa mehsoos karna. Isliye option C sahi answer hai."
+},
+{
+  "id": 11,
+  "question": "The word 'Cantankerous' refers to a person who is:",
+  "options": [
+    "Calm and peaceful",
+    "Friendly",
+    "Quiet",
+    "Quarrelsome and argumentative"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Cantankerous describes someone who is bad-tempered, argumentative, and often quarrelsome.\n\nHinglish: Cantankerous vyakti aksar jhagadalu aur ladai karne wala hota hai. Isliye option D correct hai."
+},
+{
+  "id": 12,
+  "question": "What is the meaning of 'Disdainful'?",
+  "options": [
+    "Showing contempt or scorn",
+    "Showing kindness",
+    "Being supportive",
+    "Being humorous"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Disdainful means showing contempt, scorn, or a feeling that someone is unworthy of respect.\n\nHinglish: Disdainful ka matlab hota hai kisi ko neecha samajhna ya uske prati tuchchh bhavna rakhna. Isliye option A sahi hai."
+},
+{
+  "id": 13,
+  "question": "The word 'Effusive' means:",
+  "options": [
+    "Emotionless",
+    "Expressing excessive emotions",
+    "Silent",
+    "Reserved"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Effusive refers to expressing feelings and emotions in a very enthusiastic or excessive manner.\n\nHinglish: Effusive ka matlab hota hai bahut zyada emotions ya feelings express karna. Isliye option B correct hai."
+},
+{
+  "id": 14,
+  "question": "Who can be described as 'Garrulous'?",
+  "options": [
+    "A very quiet person",
+    "A brave person",
+    "A talkative person",
+    "A dishonest person"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Garrulous means excessively talkative or fond of talking.\n\nHinglish: Garrulous vyakti bahut zyada baat karne wala hota hai. Isliye option C sahi answer hai."
+},
+{
+  "id": 15,
+  "question": "What does 'Taciturn' mean?",
+  "options": [
+    "Talkative",
+    "Aggressive",
+    "Helpful",
+    "Reserved and quiet"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Taciturn describes a person who speaks very little and tends to remain quiet.\n\nHinglish: Taciturn ka matlab hota hai kam bolne wala ya zyada chup rehne wala vyakti. Isliye option D correct hai."
+},
+{
+  "id": 16,
+  "question": "What does the phrasal verb 'Back off' mean?",
+  "options": [
+    "Become less aggressive",
+    "Move forward quickly",
+    "Speak loudly",
+    "Start an argument"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Back off' means to become less aggressive or to withdraw from a confrontational situation.\n\nHinglish: Back off ka matlab hota hai apna aggressive behavior kam karna ya piche hat jana. Isliye option A correct hai."
+},
+{
+  "id": 17,
+  "question": "What does 'Back out' mean in the sentence 'She backed out of organizing the fund-raising'?",
+  "options": [
+    "To complete the task",
+    "To withdraw from an agreement",
+    "To donate money",
+    "To encourage others"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Back out' means to withdraw from something that one had previously agreed to do.\n\nHinglish: Back out ka matlab hota hai kisi commitment ya promise se piche hat jana. Isliye option B sahi hai."
+},
+{
+  "id": 18,
+  "question": "In computer usage, what does 'Back up' mean?",
+  "options": [
+    "Delete data permanently",
+    "Hide information",
+    "Copy data as a security measure",
+    "Transfer ownership"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Back up' means creating a copy of data so it can be restored if the original is lost.\n\nHinglish: Back up ka matlab hota hai data ki extra copy banana taaki future me data loss hone par use recover kiya ja sake. Isliye option C correct hai."
+},
+{
+  "id": 19,
+  "question": "What does 'Get on to someone' mean?",
+  "options": [
+    "Ignore a person",
+    "Fight with a person",
+    "Travel with a person",
+    "Contact a person regarding a matter"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get on to someone' means to contact a person in order to discuss or address a matter.\n\nHinglish: Get on to ka matlab hota hai kisi vyakti se contact karna ya usse kisi issue ke baare me baat karna. Isliye option D correct hai."
+},
+{
+  "id": 20,
+  "question": "What does 'Get on with' mean?",
+  "options": [
+    "Proceed or continue with something",
+    "Cancel a plan",
+    "Hide information",
+    "Avoid responsibility"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get on with' means to continue doing something or proceed with a task.\n\nHinglish: Get on with ka matlab hota hai kisi kaam ko continue karna ya aage badhana. Isliye option A correct hai."
+},
+{
+  "id": 21,
+  "question": "The phrasal verb 'Get out' most commonly means:",
+  "options": [
+    "Leave or escape",
+    "Celebrate success",
+    "Make noise",
+    "Hide somewhere"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get out' means to leave a place or escape from a situation.\n\nHinglish: Get out ka simple matlab hota hai bahar nikalna ya kisi situation se escape karna. Isliye option A sahi hai."
+},
+{
+  "id": 22,
+  "question": "What does 'Get over' mean in 'I'm trying to get over my fear of flying'?",
+  "options": [
+    "Increase",
+    "Overcome",
+    "Ignore forever",
+    "Discuss publicly"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get over' means to overcome a difficulty, fear, or problem.\n\nHinglish: Get over ka matlab hota hai kisi dar, problem ya challenge ko successfully overcome kar lena. Isliye option B correct hai."
+},
+{
+  "id": 23,
+  "question": "What does 'Get rid of' mean?",
+  "options": [
+    "Collect more of something",
+    "Protect something",
+    "Remove or dispose of something",
+    "Improve something"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get rid of' means to remove, eliminate, or dispose of something unwanted.\n\nHinglish: Get rid of ka matlab hota hai kisi unwanted cheez ko hata dena ya usse chutkara pa lena. Isliye option C correct hai."
+},
+{
+  "id": 24,
+  "question": "What does 'Put across' mean?",
+  "options": [
+    "Hide an idea",
+    "Destroy evidence",
+    "Delay a project",
+    "Explain something clearly"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put across' means to communicate or explain an idea clearly and effectively.\n\nHinglish: Put across ka matlab hota hai apni baat ya idea ko clearly samjhana. Isliye option D sahi answer hai."
+},
+{
+  "id": 25,
+  "question": "What does 'Put aside' mean when talking about money?",
+  "options": [
+    "Save money",
+    "Spend money immediately",
+    "Borrow money",
+    "Donate money"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put aside' means to save money for future use.\n\nHinglish: Put aside ka matlab hota hai future ke liye paise bacha kar rakhna. Isliye option A correct hai."
+},
+{
+  "id": 26,
+  "question": "What does 'Put aside' mean in the sentence 'Let's put our differences aside'?",
+  "options": [
+    "Increase differences",
+    "Ignore differences temporarily",
+    "Discuss differences loudly",
+    "Record differences"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put aside' means to ignore or set something aside temporarily in order to focus on something more important.\n\nHinglish: Yahan put aside ka matlab hai apne differences ko kuch time ke liye bhool jana ya side me rakh dena taaki important kaam par focus kiya ja sake. Isliye option B correct hai."
+},
+{
+  "id": 27,
+  "question": "What does 'Put away' mean in 'I put the clothes away'?",
+  "options": [
+    "Place out of the way neatly",
+    "Throw away",
+    "Wash clothes",
+    "Sell clothes"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put away' means to place something in its proper place or store it neatly.\n\nHinglish: Put away ka matlab hota hai kisi cheez ko uski proper jagah par rakh dena. Isliye option A sahi hai."
+},
+{
+  "id": 28,
+  "question": "In the context of food, what does 'Put away' mean?",
+  "options": [
+    "Cook food",
+    "Store food",
+    "Consume a large quantity of food",
+    "Share food"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put away' can mean eating or drinking a surprisingly large amount.\n\nHinglish: Jab food ke context me use hota hai, put away ka matlab bahut zyada khana ya peena hota hai. Isliye option C correct hai."
+},
+{
+  "id": 29,
+  "question": "What does 'Put back' mean?",
+  "options": [
+    "Destroy something",
+    "Buy something",
+    "Move something forward",
+    "Return something to its original place"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put back' means returning an item to where it originally belonged.\n\nHinglish: Put back ka matlab hota hai kisi cheez ko uski original jagah par wapas rakhna. Isliye option D correct hai."
+},
+{
+  "id": 30,
+  "question": "What does 'Put by' mean when referring to money?",
+  "options": [
+    "Save money",
+    "Spend money",
+    "Borrow money",
+    "Invest money immediately"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put by' means to save money for future needs.\n\nHinglish: Put by ka matlab future ke liye paise bacha kar rakhna hota hai. Isliye option A correct hai."
+},
+{
+  "id": 31,
+  "question": "What does 'Put down' mean in 'They frequently put down their little sister'?",
+  "options": [
+    "Praise someone",
+    "Insult or belittle someone",
+    "Protect someone",
+    "Support someone"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put down' means to insult, criticize, or make someone feel inferior.\n\nHinglish: Put down ka matlab hota hai kisi ka mazaak udana ya usse neecha dikhana. Isliye option B correct hai."
+},
+{
+  "id": 32,
+  "question": "What does 'Put down' mean in the context of writing?",
+  "options": [
+    "Erase text",
+    "Read text",
+    "Write something",
+    "Print something"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put down' can also mean to write or record something.\n\nHinglish: Writing ke context me put down ka matlab kisi baat ko likhna ya record karna hota hai. Isliye option C sahi hai."
+},
+{
+  "id": 33,
+  "question": "What does 'Put down' mean in the sentence 'Don't put the phone down'?",
+  "options": [
+    "Call again",
+    "Speak louder",
+    "Change the number",
+    "Terminate a call"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In telephone conversations, 'put down' means to hang up or end the call.\n\nHinglish: Phone ke context me put down ka matlab call ko disconnect ya hang up kar dena hota hai. Isliye option D correct hai."
+},
+{
+  "id": 34,
+  "question": "What does 'Put down' mean in 'I've put myself down for the course'?",
+  "options": [
+    "Add one's name to a list",
+    "Cancel registration",
+    "Skip the course",
+    "Teach the course"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put down for' means to register or add one's name for participation.\n\nHinglish: Yahan put down for ka matlab hai apna naam kisi list ya course ke liye register karna. Isliye option A correct hai."
+},
+{
+  "id": 35,
+  "question": "What does 'Put down' mean in 'The pilot managed to put down in a nearby field'?",
+  "options": [
+    "Build a runway",
+    "Land an aircraft",
+    "Repair an aircraft",
+    "Refuel an aircraft"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In aviation, 'put down' means to land an aircraft safely.\n\nHinglish: Aviation context me put down ka matlab aircraft ko safely land karna hota hai. Isliye option B sahi answer hai."
+},
+{
+  "id": 36,
+  "question": "What does 'Get on for' mean?",
+  "options": [
+    "Be near a particular time",
+    "Get ready for travel",
+    "Start a new project",
+    "Contact a friend"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get on for' means to be approaching or nearing a particular time.\n\nHinglish: Get on for ka matlab hota hai kisi specific time ke kareeb pahunchna. Jaise 'It was getting on for noon' ka matlab hai dopahar hone wali thi. Isliye option A correct hai."
+},
+{
+  "id": 37,
+  "question": "What does 'Get onto' mean in the sentence 'With my new computer, I can get onto the Internet faster'?",
+  "options": [
+    "Disconnect from a network",
+    "Connect to a network",
+    "Repair a computer",
+    "Buy internet service"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get onto' means to connect to a network, system, or the Internet.\n\nHinglish: Yahan get onto ka matlab Internet se connect hona hai. Isliye option B correct hai."
+},
+{
+  "id": 38,
+  "question": "What does 'Get onto someone' mean in the sentence 'My father got onto me for taking the car without asking'?",
+  "options": [
+    "Praise someone",
+    "Ignore someone",
+    "Scold someone",
+    "Help someone"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get onto someone' can mean to criticize or scold a person for something they did.\n\nHinglish: Yahan get onto ka matlab daantna ya scold karna hai. Father ne bina permission car lene par daanta tha. Isliye option C sahi hai."
+},
+{
+  "id": 39,
+  "question": "What does 'Get onto someone' mean in 'My mum got me onto this new diet'?",
+  "options": [
+    "Forced someone to diet",
+    "Introduced someone to something",
+    "Stopped someone from dieting",
+    "Punished someone"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'get onto' means introducing someone to a new idea, habit, or thing.\n\nHinglish: Is sentence me get onto ka matlab kisi ko kisi nayi cheez se introduce karna hai. Isliye option B correct hai."
+},
+{
+  "id": 40,
+  "question": "What does 'Get out' mean in the sentence 'Somehow the secret got out'?",
+  "options": [
+    "Become known publicly",
+    "Leave a building",
+    "Escape danger",
+    "Travel abroad"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get out' can mean that information becomes known to other people.\n\nHinglish: Yahan get out ka matlab hai secret ka public ho jana ya sabko pata chal jana. Isliye option A correct hai."
+},
+{
+  "id": 41,
+  "question": "What does 'Get out' mean in 'You should get out more'?",
+  "options": [
+    "Sleep more",
+    "Spend more time outside the house",
+    "Study harder",
+    "Travel internationally"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In this context, 'get out more' means spending more time outside and being socially active.\n\nHinglish: Yahan get out more ka matlab ghar ke bahar zyada time spend karna aur thoda social hona hai. Isliye option B sahi hai."
+},
+{
+  "id": 42,
+  "question": "What does 'Get out' mean in 'He could hardly get the words out'?",
+  "options": [
+    "Write words",
+    "Memorize words",
+    "Speak words with difficulty",
+    "Translate words"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get the words out' means being able to speak, often with difficulty because of emotions.\n\nHinglish: Yahan get the words out ka matlab mushkil se bol paana hai, especially jab insaan emotional ho. Isliye option C correct hai."
+},
+{
+  "id": 43,
+  "question": "What does 'Get out' mean in the context of stains?",
+  "options": [
+    "Create stains",
+    "Hide stains",
+    "Spread stains",
+    "Remove stains"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In cleaning contexts, 'get out' means removing dirt or stains.\n\nHinglish: Cleaning ke context me get out ka matlab stain ya dirt ko remove karna hota hai. Isliye option D correct hai."
+},
+{
+  "id": 44,
+  "question": "What does 'Get over' mean in 'I'm having problems getting over a bad cold'?",
+  "options": [
+    "Recover from an illness",
+    "Spread an illness",
+    "Ignore an illness",
+    "Study an illness"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get over' can mean recovering from an illness or difficult condition.\n\nHinglish: Yahan get over ka matlab bimari se recover hona hai. Isliye option A correct hai."
+},
+{
+  "id": 45,
+  "question": "What does 'Get over with' mean?",
+  "options": [
+    "Delay something",
+    "Finish something quickly",
+    "Cancel something",
+    "Repeat something"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get over with' means completing something quickly so that it is no longer a concern.\n\nHinglish: Get over with ka matlab hota hai kisi kaam ko jaldi se khatam kar dena taaki baad me tension na rahe. Isliye option B correct hai."
+},
+{
+  "id": 46,
+  "question": "What does 'Get stuck into' mean in the sentence 'He's really getting stuck into his new job'?",
+  "options": [
+    "Avoiding work",
+    "Putting a lot of effort into something",
+    "Complaining about work",
+    "Leaving a job"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get stuck into' means to dedicate a great deal of effort and energy to a task.\n\nHinglish: Yahan get stuck into ka matlab kisi kaam me poori mehnat aur dedication ke saath lag jana hai. Isliye option B correct hai."
+},
+{
+  "id": 47,
+  "question": "What does 'Get stuck into' mean in the sentence 'Dinner's ready! Quick, get stuck into it!'?",
+  "options": [
+    "Start eating enthusiastically",
+    "Cook food",
+    "Serve food",
+    "Throw food away"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In this context, 'get stuck into' means to begin eating eagerly.\n\nHinglish: Yahan get stuck into ka matlab khana jaldi aur enthusiasm ke saath shuru karna hai. Isliye option A sahi hai."
+},
+{
+  "id": 48,
+  "question": "What does 'Get stuck into someone' mean?",
+  "options": [
+    "Praise someone",
+    "Ignore someone",
+    "Criticise or tell off someone",
+    "Help someone"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Get stuck into someone' means to criticize, scold, or attack someone verbally.\n\nHinglish: Yahan get stuck into ka matlab kisi ko daantna, criticize karna ya us par gussa karna hai. Isliye option C correct hai."
+},
+{
+  "id": 49,
+  "question": "What does 'Put (effort) into' mean?",
+  "options": [
+    "Ignore work",
+    "Spend money",
+    "Travel somewhere",
+    "Make an effort or try"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put effort into' means to work hard or try seriously to achieve something.\n\nHinglish: Put effort into ka matlab kisi kaam me mehnat lagana aur sincerely try karna hota hai. Isliye option D correct hai."
+},
+{
+  "id": 50,
+  "question": "What does 'Put asunder' mean?",
+  "options": [
+    "Separate or divide",
+    "Join together",
+    "Decorate something",
+    "Protect something"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put asunder' means to separate, divide, or break apart something that was joined.\n\nHinglish: Put asunder ka matlab alag kar dena ya divide kar dena hota hai. Isliye option A correct hai."
+},
+{
+  "id": 51,
+  "question": "What does 'Put away' mean in the sentence 'They put him away for 10 years'?",
+  "options": [
+    "Send someone to prison",
+    "Give someone a reward",
+    "Help someone escape",
+    "Promote someone"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In this context, 'put away' means to send someone to prison.\n\nHinglish: Yahan put away ka matlab kisi ko jail bhejna hai. Isliye option A sahi answer hai."
+},
+{
+  "id": 52,
+  "question": "What does 'Put away' mean in sports when a team 'put the game away'?",
+  "options": [
+    "Cancel the match",
+    "Secure victory decisively",
+    "Postpone the game",
+    "Replay the game"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put the game away' means gaining such a strong lead that victory becomes almost certain.\n\nHinglish: Sports me put the game away ka matlab match par itna control bana lena ki jeet lagbhag pakki ho jaye. Isliye option B correct hai."
+},
+{
+  "id": 53,
+  "question": "What does 'Put back' mean in British English when referring to a meeting?",
+  "options": [
+    "Start early",
+    "Cancel completely",
+    "Postpone to a later time",
+    "Move to another city"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In British English, 'put back' can mean postponing an event or appointment.\n\nHinglish: Yahan put back ka matlab meeting ko baad ke time par shift ya postpone karna hai. Isliye option C correct hai."
+},
+{
+  "id": 54,
+  "question": "What does 'Put by' mean in 'Our family has been putting food by for generations'?",
+  "options": [
+    "Selling food",
+    "Cooking food",
+    "Throwing away food",
+    "Preserving food for future use"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put by' means storing or preserving something for future use.\n\nHinglish: Yahan put by ka matlab future ke liye food ko preserve karke rakhna hai. Isliye option D correct hai."
+},
+{
+  "id": 55,
+  "question": "What does 'Put down' mean in the sentence 'The government quickly put down the insurrection'?",
+  "options": [
+    "Suppress or stop by force",
+    "Encourage a movement",
+    "Record an event",
+    "Delay an action"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put down' here means to suppress, eliminate, or stop something, often using force.\n\nHinglish: Is sentence me put down ka matlab kisi rebellion ya movement ko force ke through daba dena hai. Isliye option A correct hai."
+},
+{
+  "id": 56,
+  "question": "What does 'Put down' mean in the sentence 'Rex was in so much pain, they had to put him down'?",
+  "options": [
+    "Train an animal",
+    "Euthanize an animal",
+    "Feed an animal",
+    "Rescue an animal"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In this context, 'put down' means to humanely end an animal's life to stop its suffering.\n\nHinglish: Yahan put down ka matlab kisi janwar ki takleef khatam karne ke liye usse euthanize karna hai. Isliye option B correct hai."
+},
+{
+  "id": 57,
+  "question": "What does 'Put down' mean in the sentence 'BP are putting petrol prices down'?",
+  "options": [
+    "Increase prices",
+    "Fix prices permanently",
+    "Lower prices",
+    "Hide prices"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'put down' means to reduce or lower prices.\n\nHinglish: Is sentence me put down ka matlab prices ko kam karna hai. Isliye option C sahi answer hai."
+},
+{
+  "id": 58,
+  "question": "What does 'Put down' mean in the sentence 'I had just put Mary down when you rang'?",
+  "options": [
+    "Scold a child",
+    "Drop a child at school",
+    "Wake a child up",
+    "Put a baby to sleep"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In this context, 'put down' means placing a baby somewhere to sleep.\n\nHinglish: Yahan put down ka matlab baby ko sula dena hai. Isliye option D correct hai."
+},
+{
+  "id": 59,
+  "question": "What does 'Put down' mean in the sentence 'The taxi put him down outside the hotel'?",
+  "options": [
+    "Drop someone off",
+    "Insult someone",
+    "Arrest someone",
+    "Charge someone money"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'put down' means to let someone leave a vehicle at a particular place.\n\nHinglish: Is sentence me put down ka matlab kisi passenger ko destination par utaarna hai. Isliye option A correct hai."
+},
+{
+  "id": 60,
+  "question": "What does 'Put down' mean in the sentence 'I was unable to put down The Stand'?",
+  "options": [
+    "Stop reading a book",
+    "Write a book",
+    "Publish a book",
+    "Borrow a book"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: The phrase suggests that the book was so interesting that the reader could not stop reading it.\n\nHinglish: Yahan put down ka matlab kitab padhna band karna hai. Sentence ka matlab hai kitab itni interesting thi ki reader use chhod hi nahi pa raha tha. Isliye option A correct hai."
+},
+{
+  "id": 61,
+  "question": "What does 'Back onto' mean in the sentence 'My house backs onto the canal'?",
+  "options": [
+    "Faces or overlooks from the rear",
+    "Moves toward water",
+    "Is built on water",
+    "Is hidden behind trees"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Back onto' means that the rear side of something faces or overlooks another place.\n\nHinglish: Yahan back onto ka matlab hai ghar ka pichla hissa canal ki taraf khulta hai ya uski taraf face karta hai. Isliye option A correct hai."
+},
+{
+  "id": 62,
+  "question": "What does 'Back out' mean in the sentence 'I had to back out the changes made to the computer'?",
+  "options": [
+    "Save the changes",
+    "Undo a change",
+    "Share the changes",
+    "Speed up the computer"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: In computing, 'back out' can mean reversing or undoing a change.\n\nHinglish: Computer ke context me back out ka matlab pehle ki gayi changes ko reverse ya undo karna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 63,
+  "question": "What does 'Back up' mean in the sentence 'Back up the car a little'?",
+  "options": [
+    "Park the car",
+    "Wash the car",
+    "Move the car backward",
+    "Speed up the car"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Back up' in driving means moving a vehicle in reverse.\n\nHinglish: Driving ke context me back up ka matlab gaadi ko piche le jana hota hai. Isliye option C correct hai."
+},
+{
+  "id": 64,
+  "question": "What does 'Back up' mean in the sentence 'Let's back up and think about it'?",
+  "options": [
+    "Run away",
+    "Forget the issue",
+    "Take action immediately",
+    "Reconsider one's thoughts"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'back up' means stepping back mentally and reconsidering the situation.\n\nHinglish: Yahan back up ka matlab thoda ruk kar dobara sochna aur situation ko fresh perspective se dekhna hai. Isliye option D correct hai."
+},
+{
+  "id": 65,
+  "question": "What does 'Back up' mean in the sentence 'This guy is backed up by the local gang'?",
+  "options": [
+    "Supported by someone",
+    "Ignored by everyone",
+    "Attacked by a group",
+    "Controlled by police"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Backed up by' means receiving support or protection from someone.\n\nHinglish: Yahan backed up by ka matlab support milna hai. Is sentence me local gang us vyakti ko support kar rahi hai. Isliye option A correct hai."
+},
+{
+  "id": 66,
+  "question": "What does 'Back up' mean in the sentence 'The plumbing backed up and burst'?",
+  "options": [
+    "Flow smoothly",
+    "Halt the flow or movement",
+    "Get repaired",
+    "Increase pressure intentionally"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'back up' means that the normal flow was blocked, causing a buildup and eventual overflow.\n\nHinglish: Yahan back up ka matlab flow ruk jana ya block ho jana hai. Plumbing block hone ki wajah se pressure badh gaya aur pipe phat gaya. Isliye option B correct hai."
+},
+{
+  "id": 67,
+  "question": "What does 'Put down as' mean?",
+  "options": [
+    "Assume someone has a particular character",
+    "Write a book",
+    "Register for a course",
+    "Lower a price"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put down as' means to form an opinion about someone's character based on limited information.\n\nHinglish: Put down as ka matlab kisi vyakti ke baare me limited information ke basis par opinion bana lena hota hai. Isliye option A correct hai."
+},
+{
+  "id": 68,
+  "question": "What does 'Put down for' mean?",
+  "options": [
+    "Reject an offer",
+    "Record someone's offer to help or contribute",
+    "Criticize someone",
+    "Hide information"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put down for' means recording that someone has volunteered or agreed to participate.\n\nHinglish: Put down for ka matlab kisi ka naam contribution ya participation ke liye list me add karna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 69,
+  "question": "What does 'Put down to' mean?",
+  "options": [
+    "Ignore the cause",
+    "Hide the reason",
+    "State the cause of something",
+    "Postpone an event"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put down to' means explaining something by identifying its cause.\n\nHinglish: Put down to ka matlab kisi situation ka reason ya cause batana hota hai. Isliye option C correct hai."
+},
+{
+  "id": 70,
+  "question": "What does 'Put forward' mean?",
+  "options": [
+    "Delay a proposal",
+    "Reject an idea",
+    "Hide information",
+    "Propose something for consideration"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put forward' means presenting an idea, suggestion, or proposal for others to consider.\n\nHinglish: Put forward ka matlab kisi idea ya proposal ko discuss karne ke liye present karna hota hai. Isliye option D correct hai."
+},
+{
+  "id": 71,
+  "question": "What does 'Put in' mean in the sentence 'I put in an extra hour at work today'?",
+  "options": [
+    "Contribute effort or time",
+    "Leave work early",
+    "Apply for leave",
+    "Take a break"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put in' here means contributing extra time, effort, or work.\n\nHinglish: Yahan put in ka matlab extra mehnat ya extra time dena hai. Isliye option A correct hai."
+},
+{
+  "id": 72,
+  "question": "What does 'Put into practice' mean?",
+  "options": [
+    "Ignore a plan",
+    "Make something a practical reality",
+    "Discuss a theory",
+    "Cancel an idea"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put into practice' means implementing an idea or plan in real life.\n\nHinglish: Put into practice ka matlab kisi plan ya idea ko actual life me implement karna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 73,
+  "question": "What does 'Put off' mean in the sentence 'Don't put off your homework'?",
+  "options": [
+    "Finish immediately",
+    "Review carefully",
+    "Procrastinate or delay",
+    "Submit online"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put off' means delaying something that should be done.\n\nHinglish: Put off ka matlab kaam ko talna ya postpone karna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 74,
+  "question": "What does 'Put off' mean in the sentence 'Almost drowning put him off swimming'?",
+  "options": [
+    "Made him enjoy swimming",
+    "Helped him learn swimming",
+    "Made him teach swimming",
+    "Caused him to dislike swimming"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'put off' means causing someone to dislike or lose interest in something.\n\nHinglish: Yahan put off ka matlab kisi cheez se interest khatam ho jana ya dislike develop ho jana hai. Isliye option D correct hai."
+},
+{
+  "id": 75,
+  "question": "What does 'Put on' mean in the sentence 'Why don't you put on your jacket?'",
+  "options": [
+    "Wear clothing",
+    "Buy clothing",
+    "Wash clothing",
+    "Fold clothing"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put on' commonly means to wear a piece of clothing.\n\nHinglish: Put on ka sabse common matlab kapde pehenna hota hai. Isliye option A correct hai."
+},
+{
+  "id": 76,
+  "question": "What does 'Put on' mean in the sentence 'You must be putting me on'?",
+  "options": [
+    "Helping someone",
+    "Deceiving or fooling someone",
+    "Teaching someone",
+    "Supporting someone"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put on' can mean to deceive, joke with, or fool someone.\n\nHinglish: Yahan put on ka matlab kisi ko bevakoof banana ya mazaak karna hai. Jab koi kehta hai 'You must be putting me on', toh uska matlab hota hai 'Tum mazaak kar rahe ho'. Isliye option B correct hai."
+},
+{
+  "id": 77,
+  "question": "What does 'Put on' mean in the sentence 'Why are you putting on that silly voice?'",
+  "options": [
+    "Recording a voice",
+    "Changing or pretending a particular manner",
+    "Losing your voice",
+    "Improving your voice"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'put on' means adopting or pretending a particular behavior, accent, or voice.\n\nHinglish: Yahan put on ka matlab kisi fake style ya voice ko intentionally adopt karna hai. Isliye option B correct hai."
+},
+{
+  "id": 78,
+  "question": "What does 'Put on' mean in the sentence 'I'll put on your favorite record'?",
+  "options": [
+    "Play a recording",
+    "Buy a record",
+    "Write a song",
+    "Hide a record"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put on' in this context means to play a recording, song, or media.\n\nHinglish: Yahan put on ka matlab music ya recording play karna hai. Isliye option A sahi answer hai."
+},
+{
+  "id": 79,
+  "question": "What does 'Put on' mean in the sentence 'I'll put on some coffee for everybody'?",
+  "options": [
+    "Serve coffee",
+    "Buy coffee",
+    "Start preparing or cooking something",
+    "Throw away coffee"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Here, 'put on' means to start preparing or cooking something.\n\nHinglish: Is sentence me put on ka matlab coffee banana shuru karna hai. Isliye option C correct hai."
+},
+{
+  "id": 80,
+  "question": "What does 'Put on' mean in the sentence 'The actors put on a show'?",
+  "options": [
+    "Watch a performance",
+    "Perform for an audience",
+    "Cancel a performance",
+    "Review a performance"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put on a show' means to perform or present entertainment for an audience.\n\nHinglish: Put on a show ka matlab audience ke saamne performance dena hota hai. Isliye option B correct hai."
+},
+{
+  "id": 81,
+  "question": "What does 'Put out' mean in the sentence 'Don't forget to put out the cat'?",
+  "options": [
+    "Place outside",
+    "Feed the cat",
+    "Clean the cat",
+    "Adopt the cat"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put out' here means to place something or someone outside.\n\nHinglish: Yahan put out ka matlab billi ko bahar chhodna ya bahar nikalna hai. Isliye option A correct hai."
+},
+{
+  "id": 82,
+  "question": "What does 'Put out' mean in the sentence 'The factory puts out 4000 units each day'?",
+  "options": [
+    "Destroy products",
+    "Produce products",
+    "Store products",
+    "Sell products"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put out' can mean to produce or manufacture something.\n\nHinglish: Factory ke context me put out ka matlab production karna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 83,
+  "question": "What does 'Put out' mean in the sentence 'Don't put out your back trying to lift that'?",
+  "options": [
+    "Strengthen a body part",
+    "Exercise regularly",
+    "Injure a body part",
+    "Massage a body part"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put out your back' means to injure your back, usually by overexertion.\n\nHinglish: Yahan put out ka matlab back ko injury pahunchana hai. Zyada weight uthate waqt aisa ho sakta hai. Isliye option C correct hai."
+},
+{
+  "id": 84,
+  "question": "What does 'Put out' mean in the sentence 'They worked for days to put out the brushfire'?",
+  "options": [
+    "Start a fire",
+    "Spread a fire",
+    "Observe a fire",
+    "Extinguish a fire"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put out' means to extinguish or stop a fire or flame.\n\nHinglish: Yahan put out ka matlab aag ko bujhana hai. Isliye option D correct hai."
+},
+{
+  "id": 85,
+  "question": "What does 'Put oneself across' mean?",
+  "options": [
+    "Hide one's personality",
+    "Explain oneself clearly",
+    "Travel abroad",
+    "Avoid communication"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Put oneself across' means expressing your ideas and personality clearly so others can understand you.\n\nHinglish: Put oneself across ka matlab apni baat aur personality ko clear tareeke se express karna hai taaki dusre log samajh saken. Isliye option B correct hai."
+},
+{
+  "id": 86,
+  "question": "What does 'Stand aside' mean in the sentence 'Stand aside, please, so the doctor can get through'?",
+  "options": [
+    "Move aside to make space",
+    "Start running",
+    "Close the door",
+    "Wait quietly"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Stand aside' means to move out of the way so that someone else can pass.\n\nHinglish: Stand aside ka matlab side me ho jana ya jagah dena hota hai taaki dusra vyakti nikal sake. Isliye option A correct hai."
+},
+{
+  "id": 87,
+  "question": "What does 'Stand back' mean?",
+  "options": [
+    "Move closer",
+    "Maintain a safe distance",
+    "Start working",
+    "Sit down"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Stand back' means staying at a safe distance from something dangerous.\n\nHinglish: Stand back ka matlab kisi dangerous cheez se safe distance bana kar rakhna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 88,
+  "question": "What does 'Stand by' mean in the sentence 'Please stand by for more instructions'?",
+  "options": [
+    "Leave immediately",
+    "Complain loudly",
+    "Wait and remain ready",
+    "Cancel a task"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Stand by' means to wait while being ready for further action or instructions.\n\nHinglish: Stand by ka matlab wait karna aur saath hi ready rehna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 89,
+  "question": "What does 'Stand for' mean?",
+  "options": [
+    "Encourage bad behaviour",
+    "Ignore everything",
+    "Run away",
+    "Tolerate or accept"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Stand for' means to tolerate, accept, or allow something.\n\nHinglish: Stand for ka matlab kisi cheez ko tolerate ya accept karna hota hai. Isliye option D correct hai."
+},
+{
+  "id": 90,
+  "question": "What does 'Stand in for' mean?",
+  "options": [
+    "Act as a substitute",
+    "Start a new job",
+    "Take a vacation",
+    "Reject responsibility"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: 'Stand in for' means acting as a replacement or substitute for someone.\n\nHinglish: Stand in for ka matlab kisi aur ki jagah temporarily kaam karna hota hai. Isliye option A correct hai."
+},
+{
+  "id": 91,
+  "question": "What does the word 'Righteous' mean?",
+  "options": [
+    "Virtuous and morally right",
+    "Dishonest",
+    "Careless",
+    "Aggressive"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Righteous means morally right, just, and virtuous.\n\nHinglish: Righteous ka matlab hota hai naitik roop se sahi aur imaandaar hona. Isliye option A correct hai."
+},
+{
+  "id": 92,
+  "question": "What is the meaning of 'Subsequent'?",
+  "options": [
+    "Previous",
+    "Following or coming later",
+    "Ancient",
+    "Immediate"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Subsequent means occurring after something else in time.\n\nHinglish: Subsequent ka matlab hota hai baad me aane wala ya following. Isliye option B correct hai."
+},
+{
+  "id": 93,
+  "question": "What does 'Discern' mean?",
+  "options": [
+    "Hide",
+    "Ignore",
+    "Perceive or recognize",
+    "Destroy"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Discern means to notice, recognize, or understand something.\n\nHinglish: Discern ka matlab hota hai kisi cheez ko pehchanna ya samajhna. Isliye option C correct hai."
+},
+{
+  "id": 94,
+  "question": "What is the meaning of 'Repressive'?",
+  "options": [
+    "Democratic",
+    "Friendly",
+    "Supportive",
+    "Oppressive and controlling"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Repressive means exercising control in a harsh or oppressive manner.\n\nHinglish: Repressive ka matlab hota hai dabaav ya control karne wala, especially harsh tareeke se. Isliye option D correct hai."
+},
+{
+  "id": 95,
+  "question": "What does 'Expedient' mean?",
+  "options": [
+    "Convenient and advantageous",
+    "Dangerous",
+    "Impossible",
+    "Unnecessary"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Expedient means suitable, convenient, and useful for achieving a purpose.\n\nHinglish: Expedient ka matlab hota hai kisi situation me convenient ya faydemand hona. Isliye option A correct hai."
+},
+{
+  "id": 96,
+  "question": "What does the word 'Dash' mean?",
+  "options": [
+    "Walk slowly",
+    "Rush or move quickly",
+    "Sleep peacefully",
+    "Hide secretly"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Dash means to move or run somewhere very quickly.\n\nHinglish: Dash ka matlab hota hai bahut tezi se bhaagna ya jaldi se kahin jana. Isliye option B correct hai."
+},
+{
+  "id": 97,
+  "question": "What is the meaning of 'Subdued'?",
+  "options": [
+    "Very energetic",
+    "Extremely cheerful",
+    "Low-spirited or somber",
+    "Highly aggressive"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Subdued means quiet, low in spirits, or not very lively.\n\nHinglish: Subdued ka matlab udaas, shaant ya low-spirited hona hota hai. Isliye option C correct hai."
+},
+{
+  "id": 98,
+  "question": "What does 'Stifle' mean?",
+  "options": [
+    "Encourage",
+    "Suppress or restrain",
+    "Celebrate",
+    "Improve"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Stifle means to suppress, hold back, or stop something from being expressed.\n\nHinglish: Stifle ka matlab hota hai kisi emotion, awaaz ya action ko daba dena ya rok dena. Isliye option B correct hai."
+},
+{
+  "id": 99,
+  "question": "What is the meaning of 'Disparate'?",
+  "options": [
+    "Similar",
+    "Connected",
+    "Contrasting and different",
+    "Ordinary"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Disparate means fundamentally different or distinct from each other.\n\nHinglish: Disparate ka matlab hota hai bilkul alag ya ek dusre se kaafi different hona. Isliye option C correct hai."
+},
+{
+  "id": 100,
+  "question": "What does the word 'Belie' mean?",
+  "options": [
+    "Reveal clearly",
+    "Support strongly",
+    "Contradict or give a false impression of",
+    "Repeat exactly"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Belie means to contradict or make something appear different from the reality.\n\nHinglish: Belie ka matlab hota hai kisi cheez ki sachchai ke opposite impression dena ya uska khandan karna. Isliye option C correct hai."
+},
+{
+  "id": 101,
+  "question": "What is the synonym of 'Emanate'?",
+  "options": [
+    "Emerge",
+    "Disappear",
+    "Collapse",
+    "Reject"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Emanate means to come out, originate, or flow from a source.\n\nHinglish: Emanate ka matlab kisi source se nikalna ya originate hona hota hai. Isliye option A correct hai."
+},
+{
+  "id": 102,
+  "question": "What is the synonym of 'Macabre'?",
+  "options": [
+    "Pleasant",
+    "Grisly",
+    "Cheerful",
+    "Gentle"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Macabre refers to something horrifying, gruesome, or related to death.\n\nHinglish: Macabre ka matlab darawna, bhayanak ya death se related hona hota hai. Isliye option B correct hai."
+},
+{
+  "id": 103,
+  "question": "What is the synonym of 'Embark'?",
+  "options": [
+    "Stop",
+    "Finish",
+    "Initiate",
+    "Abandon"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Embark means to begin or start a journey, activity, or project.\n\nHinglish: Embark ka matlab kisi kaam ya journey ko shuru karna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 104,
+  "question": "What is the synonym of 'Earnest'?",
+  "options": [
+    "Flippant",
+    "Playful",
+    "Casual",
+    "Sincere"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Earnest means serious, sincere, and deeply committed.\n\nHinglish: Earnest ka matlab serious aur sincere hona hota hai. Isliye option D correct hai."
+},
+{
+  "id": 105,
+  "question": "What is the synonym of 'Cohesion'?",
+  "options": [
+    "Division",
+    "Conflict",
+    "Solidarity",
+    "Isolation"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Cohesion means unity, togetherness, and strong connection within a group.\n\nHinglish: Cohesion ka matlab ekta, unity aur strong connection hota hai. Isliye option C correct hai."
+},
+{
+  "id": 106,
+  "question": "What does the word 'Pertinent' mean?",
+  "options": [
+    "Relevant",
+    "Confusing",
+    "Ancient",
+    "Unnecessary"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Pertinent means relevant and directly related to the matter being discussed.\n\nHinglish: Pertinent ka matlab hota hai relevant ya topic se directly related hona. Isliye option A correct hai."
+},
+{
+  "id": 107,
+  "question": "What is the meaning of 'Embellish'?",
+  "options": [
+    "Simplify",
+    "Make more interesting by adding details",
+    "Destroy completely",
+    "Hide information"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Embellish means to make something more attractive or interesting by adding extra details.\n\nHinglish: Embellish ka matlab kisi story ya cheez ko extra details jodkar aur interesting banana hota hai. Isliye option B correct hai."
+},
+{
+  "id": 108,
+  "question": "What does 'Judicial' refer to?",
+  "options": [
+    "Related to agriculture",
+    "Related to education",
+    "Related to law and courts",
+    "Related to medicine"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Judicial means relating to the legal system, judges, or courts.\n\nHinglish: Judicial ka sambandh law, judges aur courts se hota hai. Isliye option C correct hai."
+},
+{
+  "id": 109,
+  "question": "What is the meaning of 'Faction'?",
+  "options": [
+    "A united group",
+    "A group within a larger group, often causing conflict",
+    "A peaceful agreement",
+    "A public celebration"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Faction refers to a smaller group within a larger organization, often having different opinions.\n\nHinglish: Faction ka matlab kisi bade group ke andar bana chhota group hota hai jo aksar alag views rakhta hai. Isliye option B correct hai."
+},
+{
+  "id": 110,
+  "question": "What does 'Defiance' mean?",
+  "options": [
+    "Obedience",
+    "Submission",
+    "Resistance or open disobedience",
+    "Friendship"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Defiance means openly resisting or refusing to obey authority.\n\nHinglish: Defiance ka matlab khulkar virodh karna ya authority ki baat na maanna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 111,
+  "question": "What does the word 'Temerity' mean?",
+  "options": [
+    "Extreme caution",
+    "Audacity or excessive boldness",
+    "Sadness",
+    "Honesty"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Temerity means excessive confidence or boldness that may seem reckless.\n\nHinglish: Temerity ka matlab bahut zyada boldness ya himmat dikhana hota hai, kabhi-kabhi hadd se zyada. Isliye option B correct hai."
+},
+{
+  "id": 112,
+  "question": "What is the meaning of 'Dissemination'?",
+  "options": [
+    "Spreading information",
+    "Hiding information",
+    "Deleting information",
+    "Changing information"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Dissemination means the act of spreading information widely.\n\nHinglish: Dissemination ka matlab information ko zyada se zyada logon tak pahunchana hota hai. Isliye option A correct hai."
+},
+{
+  "id": 113,
+  "question": "What does 'Drab' mean?",
+  "options": [
+    "Bright and colorful",
+    "Dull and colorless",
+    "Expensive",
+    "Exciting"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Drab means dull, boring, and lacking bright colors.\n\nHinglish: Drab ka matlab feeka, boring aur bina rangon wali cheez hoti hai. Isliye option B correct hai."
+},
+{
+  "id": 114,
+  "question": "What is the meaning of 'Pragmatic'?",
+  "options": [
+    "Practical and realistic",
+    "Emotional and dreamy",
+    "Careless",
+    "Confused"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Pragmatic means dealing with things in a practical and sensible way.\n\nHinglish: Pragmatic ka matlab practical aur realistic approach rakhna hota hai. Isliye option A correct hai."
+},
+{
+  "id": 115,
+  "question": "Who is an 'Adversary'?",
+  "options": [
+    "A close friend",
+    "A teacher",
+    "An opponent or rival",
+    "A relative"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: An adversary is a person who opposes or competes against another.\n\nHinglish: Adversary ka matlab opponent ya rival hota hai jo aapke against compete karta hai. Isliye option C correct hai."
+},
+{
+  "id": 116,
+  "question": "What does the word 'Cynicism' mean?",
+  "options": [
+    "Blind trust",
+    "Scepticism or distrust",
+    "Happiness",
+    "Generosity"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Cynicism means a tendency to distrust the motives or sincerity of others.\n\nHinglish: Cynicism ka matlab hota hai dusron ki baaton ya intentions par aasani se bharosa na karna. Isliye option B correct hai."
+},
+{
+  "id": 117,
+  "question": "What is the meaning of 'Inconceivable'?",
+  "options": [
+    "Easy to understand",
+    "Likely to happen",
+    "Impossible to imagine or believe",
+    "Ordinary"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Inconceivable means something so unlikely or extreme that it is hard to imagine or believe.\n\nHinglish: Inconceivable ka matlab hota hai itna unbelievable ki uski kalpana karna bhi mushkil ho. Isliye option C correct hai."
+},
+{
+  "id": 118,
+  "question": "What does the word 'Hefty' mean?",
+  "options": [
+    "Weak",
+    "Small",
+    "Light",
+    "Powerful or substantial"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Hefty means large, powerful, or impressive in size or force.\n\nHinglish: Hefty ka matlab bada, powerful ya kaafi strong hona hota hai. Isliye option D correct hai."
+},
+{
+  "id": 119,
+  "question": "What is the meaning of 'Glare'?",
+  "options": [
+    "A smile",
+    "An angry look",
+    "A friendly greeting",
+    "A joke"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Glare means an angry or fierce look.\n\nHinglish: Glare ka matlab gusse bhari nazar se dekhna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 120,
+  "question": "What does 'Cripple' mean as a verb?",
+  "options": [
+    "Improve greatly",
+    "Protect completely",
+    "Ruin or severely damage",
+    "Beautify"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Cripple means to badly damage or weaken something.\n\nHinglish: Cripple ka matlab kisi cheez ko bahut zyada nuksan pahunchana ya weak kar dena hota hai. Isliye option C correct hai."
+},
+{
+  "id": 121,
+  "question": "What does the word 'Buck' mean in the given context?",
+  "options": [
+    "Accept or follow",
+    "Resist or oppose",
+    "Support strongly",
+    "Ignore completely"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Buck means to resist, oppose, or go against a trend or authority.\n\nHinglish: Buck ka matlab kisi trend ya authority ke khilaaf jana ya oppose karna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 122,
+  "question": "What does 'Ratify' mean?",
+  "options": [
+    "Reject officially",
+    "Delay approval",
+    "Confirm or approve officially",
+    "Hide information"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Ratify means to formally approve or confirm something.\n\nHinglish: Ratify ka matlab kisi agreement ya decision ko officially approve karna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 123,
+  "question": "What is the meaning of 'Nefarious'?",
+  "options": [
+    "Wicked and evil",
+    "Helpful",
+    "Generous",
+    "Honest"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Nefarious means extremely wicked, evil, or criminal.\n\nHinglish: Nefarious ka matlab bahut hi bura, evil ya criminal nature ka hona hota hai. Isliye option A correct hai."
+},
+{
+  "id": 124,
+  "question": "What does 'Hegemony' mean?",
+  "options": [
+    "Dominance or leadership over others",
+    "Complete equality",
+    "Weakness",
+    "Isolation"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Hegemony refers to dominance or leadership exercised by one group over others.\n\nHinglish: Hegemony ka matlab kisi group ya country ka dusron par dominance ya leadership rakhna hota hai. Isliye option A correct hai."
+},
+{
+  "id": 125,
+  "question": "What is the meaning of 'Apex'?",
+  "options": [
+    "Lowest point",
+    "Middle stage",
+    "Highest point or climax",
+    "Beginning"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Apex means the highest point, peak, or climax of something.\n\nHinglish: Apex ka matlab kisi cheez ki sabse upar wali position ya highest point hota hai. Isliye option C correct hai."
+},
+{
+  "id": 126,
+  "question": "What does the word 'Abolition' mean?",
+  "options": [
+    "Retention",
+    "Expansion",
+    "Ending or scrapping of something",
+    "Approval"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Abolition means the formal ending, removal, or scrapping of a system, practice, or institution.\n\nHinglish: Abolition ka matlab kisi system ya practice ko officially khatam kar dena hota hai. Isliye option C correct hai."
+},
+{
+  "id": 127,
+  "question": "What is the meaning of 'Concomitant'?",
+  "options": [
+    "Accompanying or associated",
+    "Unrelated",
+    "Separate",
+    "Conflicting"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Concomitant means occurring together with or accompanying something else.\n\nHinglish: Concomitant ka matlab kisi cheez ke saath-saath hone ya usse associated hone se hai. Isliye option A correct hai."
+},
+{
+  "id": 128,
+  "question": "What does 'Intransigent' mean?",
+  "options": [
+    "Flexible",
+    "Uncompromising and unwilling to change",
+    "Friendly",
+    "Careless"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Intransigent means refusing to change one's views or agree about something.\n\nHinglish: Intransigent ka matlab apni baat par adig rehna aur compromise na karna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 129,
+  "question": "What is the meaning of 'Oratorical'?",
+  "options": [
+    "Related to writing",
+    "Related to speeches or public speaking",
+    "Related to music",
+    "Related to science"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Oratorical refers to speech-making or the art of public speaking.\n\nHinglish: Oratorical ka matlab speech ya public speaking se related hona hota hai. Isliye option B correct hai."
+},
+{
+  "id": 130,
+  "question": "What does 'Shun' mean?",
+  "options": [
+    "Accept warmly",
+    "Avoid deliberately",
+    "Support publicly",
+    "Encourage strongly"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Shun means to deliberately avoid or stay away from someone or something.\n\nHinglish: Shun ka matlab jaanbujhkar kisi cheez ya vyakti se door rehna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 131,
+  "question": "What is the meaning of 'Scandalous'?",
+  "options": [
+    "Respectable",
+    "Ordinary",
+    "Disgraceful or shocking",
+    "Helpful"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Scandalous means causing public outrage because of immoral or shocking behavior.\n\nHinglish: Scandalous ka matlab aisa vyavahar ya ghatna jo logon ko shock kare ya badnaam ho. Isliye option C correct hai."
+},
+{
+  "id": 132,
+  "question": "What does 'Acquit' mean?",
+  "options": [
+    "Convict a person",
+    "Punish severely",
+    "Arrest someone",
+    "Declare someone not guilty"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Acquit means to officially declare that a person is not guilty of a crime.\n\nHinglish: Acquit ka matlab court dwara kisi vyakti ko dosh-mukt ya not guilty declare karna hota hai. Isliye option D correct hai."
+},
+{
+  "id": 133,
+  "question": "What is the meaning of 'Retrograde'?",
+  "options": [
+    "Progressive",
+    "Regressive or moving backward",
+    "Modern",
+    "Innovative"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Retrograde means going backward or returning to an earlier and often worse condition.\n\nHinglish: Retrograde ka matlab progress ke bajay piche ki taraf jana ya regress karna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 134,
+  "question": "What does 'Perseverance' mean?",
+  "options": [
+    "Giving up easily",
+    "Persistence despite difficulties",
+    "Carelessness",
+    "Confusion"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Perseverance means continuing to work toward a goal despite obstacles or setbacks.\n\nHinglish: Perseverance ka matlab mushkilon ke bawajood lagataar mehnat karte rehna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 135,
+  "question": "What is the meaning of 'Latent'?",
+  "options": [
+    "Clearly visible",
+    "Dormant or hidden",
+    "Permanent",
+    "Active"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Latent means existing but hidden, inactive, or not yet developed.\n\nHinglish: Latent ka matlab kisi cheez ka maujood hona lekin abhi hidden ya inactive rehna hota hai. Isliye option B correct hai."
+},
+{
+  "id": 136,
+  "question": "What does the word 'Forgo' mean?",
+  "options": [
+    "Keep permanently",
+    "Give up or do without",
+    "Purchase again",
+    "Protect carefully"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Forgo means to decide not to have or do something, usually as a sacrifice.\n\nHinglish: Forgo ka matlab kisi cheez ko chhod dena ya uske bina kaam chalana hota hai. Isliye option B correct hai."
+},
+{
+  "id": 137,
+  "question": "What is the meaning of 'Affluent'?",
+  "options": [
+    "Poor",
+    "Average",
+    "Wealthy and prosperous",
+    "Unemployed"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Affluent means having a great deal of money, wealth, or prosperity.\n\nHinglish: Affluent ka matlab ameer aur financially prosperous hona hota hai. Isliye option C correct hai."
+},
+{
+  "id": 138,
+  "question": "What does the word 'Kudos' mean?",
+  "options": [
+    "Criticism",
+    "Punishment",
+    "Applause or praise",
+    "Failure"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Kudos means praise, admiration, or recognition for an achievement.\n\nHinglish: Kudos ka matlab kisi achievement ke liye milne wali tarif ya appreciation hota hai. Isliye option C correct hai."
+},
+{
+  "id": 139,
+  "question": "What is the meaning of 'Prospect'?",
+  "options": [
+    "Possibility or hope for the future",
+    "Past memory",
+    "Punishment",
+    "Failure"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Prospect means the possibility or expectation that something will happen in the future.\n\nHinglish: Prospect ka matlab future me kisi cheez ke hone ki possibility ya umeed hoti hai. Isliye option A correct hai."
+},
+{
+  "id": 140,
+  "question": "What does 'Unprecedented' mean?",
+  "options": [
+    "Common and usual",
+    "Never done or known before",
+    "Repeated often",
+    "Predictable"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Unprecedented means something that has never happened or existed before.\n\nHinglish: Unprecedented ka matlab aisi cheez jo pehle kabhi na hui ho ya na dekhi gayi ho. Isliye option B correct hai."
+},
+{
+  "id": 141,
+  "question": "What is the meaning of 'Forbearance'?",
+  "options": [
+    "Patience and self-control",
+    "Anger",
+    "Fear",
+    "Dishonesty"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Forbearance means patient self-control and tolerance in difficult situations.\n\nHinglish: Forbearance ka matlab mushkil situations me patience aur self-control dikhana hota hai. Isliye option A correct hai."
+},
+{
+  "id": 142,
+  "question": "What does the word 'Nascent' mean?",
+  "options": [
+    "Fully developed",
+    "Beginning to develop",
+    "Destroyed",
+    "Ancient"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Nascent means just beginning to exist or develop.\n\nHinglish: Nascent ka matlab naya-naya develop hona ya shuruati stage me hona hota hai. Isliye option B correct hai."
+},
+{
+  "id": 143,
+  "question": "What does 'Defile' mean?",
+  "options": [
+    "Honor",
+    "Praise",
+    "Corrupt or make impure",
+    "Protect"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Defile means to spoil, corrupt, or make something impure.\n\nHinglish: Defile ka matlab kisi cheez ko corrupt ya apavitra kar dena hota hai. Isliye option C correct hai."
+},
+{
+  "id": 144,
+  "question": "What is the meaning of 'Jolt'?",
+  "options": [
+    "Calm gently",
+    "Disturb or shock suddenly",
+    "Ignore completely",
+    "Improve steadily"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Jolt means to shock, surprise, or disturb someone suddenly.\n\nHinglish: Jolt ka matlab achanak jhatka dena ya surprise kar dena hota hai. Isliye option B correct hai."
+},
+{
+  "id": 145,
+  "question": "What does the word 'Verbose' mean?",
+  "options": [
+    "Using too many words",
+    "Very concise",
+    "Silent",
+    "Shy"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Verbose means using more words than necessary while speaking or writing.\n\nHinglish: Verbose ka matlab zaroorat se zyada bolna ya likhna hota hai. Isliye option A correct hai."
+},
+{
+  "id": 146,
+  "question": "What does the word 'Chaotic' mean?",
+  "options": [
+    "Orderly and organized",
+    "Completely confused and disordered",
+    "Peaceful",
+    "Predictable"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Chaotic means being in a state of complete confusion and disorder.\n\nHinglish: Chaotic ka matlab poori tarah se disorder aur confusion wali situation hoti hai. Isliye option B correct hai."
+},
+{
+  "id": 147,
+  "question": "What is the meaning of 'Hostility'?",
+  "options": [
+    "Friendliness",
+    "Kindness",
+    "Anger or opposition",
+    "Respect"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Hostility refers to unfriendly behavior, opposition, or hatred.\n\nHinglish: Hostility ka matlab dushmani, virodh ya hostile behavior hota hai. Isliye option C correct hai."
+},
+{
+  "id": 148,
+  "question": "What does 'Discreet' mean?",
+  "options": [
+    "Careful and tactful",
+    "Loud and attention-seeking",
+    "Careless",
+    "Immature"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Discreet means careful in speech and actions so as not to cause embarrassment or attract attention.\n\nHinglish: Discreet ka matlab samajhdari aur saavdhani se baat ya kaam karna hota hai. Isliye option A correct hai."
+},
+{
+  "id": 149,
+  "question": "What is the meaning of 'Diffuse'?",
+  "options": [
+    "Concentrated",
+    "Spread over a wide area",
+    "Hidden",
+    "Restricted"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Diffuse means spread out over a large area and not concentrated.\n\nHinglish: Diffuse ka matlab kisi cheez ka bahut bade area me fail jana hota hai. Isliye option B correct hai."
+},
+{
+  "id": 150,
+  "question": "What does 'Flaunt' mean?",
+  "options": [
+    "Hide modestly",
+    "Ignore completely",
+    "Display proudly or show off",
+    "Destroy secretly"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Flaunt means to show something off in a proud or boastful way.\n\nHinglish: Flaunt ka matlab kisi cheez ko show-off karna ya proudly display karna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 151,
+  "question": "What is the meaning of 'Undermine'?",
+  "options": [
+    "Strengthen",
+    "Support",
+    "Encourage",
+    "Weaken gradually"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Undermine means to weaken or damage something gradually.\n\nHinglish: Undermine ka matlab dheere-dheere kisi cheez ko weak ya damage karna hota hai. Isliye option D correct hai."
+},
+{
+  "id": 152,
+  "question": "What does 'Unfettered' mean?",
+  "options": [
+    "Free and unrestricted",
+    "Limited",
+    "Controlled completely",
+    "Confused"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Unfettered means not restricted or controlled by rules or limitations.\n\nHinglish: Unfettered ka matlab poori tarah se free aur bina restrictions ke hona hota hai. Isliye option A correct hai."
+},
+{
+  "id": 153,
+  "question": "What is the meaning of 'Nimble'?",
+  "options": [
+    "Slow and clumsy",
+    "Quick and agile",
+    "Lazy",
+    "Rigid"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Nimble means quick, light, and agile in movement or thinking.\n\nHinglish: Nimble ka matlab furtila, tez aur agile hona hota hai. Isliye option B correct hai."
+},
+{
+  "id": 154,
+  "question": "What does 'Thrive' mean?",
+  "options": [
+    "Decline",
+    "Fail",
+    "Grow and prosper",
+    "Disappear"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Thrive means to grow, develop, and become successful.\n\nHinglish: Thrive ka matlab grow karna, develop hona aur successful banna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 155,
+  "question": "What is the meaning of 'Subversive'?",
+  "options": [
+    "Supporting authority",
+    "Encouraging stability",
+    "Protective",
+    "Seeking to weaken an established system"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Subversive refers to ideas or actions intended to weaken or overthrow an established system.\n\nHinglish: Subversive ka matlab kisi existing system ya authority ko kamzor karne ki koshish karna hota hai. Isliye option D correct hai."
+},
+{
+  "id": 156,
+  "question": "What does the word 'Panacea' mean?",
+  "options": [
+    "A universal solution",
+    "A minor problem",
+    "A temporary delay",
+    "A type of punishment"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Panacea refers to a solution or remedy that is believed to solve all problems.\n\nHinglish: Panacea ka matlab aisa solution jo har problem ka answer maana jata hai. Isliye option A correct hai."
+},
+{
+  "id": 157,
+  "question": "Who is a 'Protagonist'?",
+  "options": [
+    "The main character in a story",
+    "The villain",
+    "A narrator",
+    "A side character"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: A protagonist is the central or main character of a story.\n\nHinglish: Protagonist kisi story ya novel ka main character hota hai. Isliye option A correct hai."
+},
+{
+  "id": 158,
+  "question": "What is the meaning of 'Parasite'?",
+  "options": [
+    "An independent organism",
+    "An organism that lives off another organism",
+    "A helpful companion",
+    "A plant that produces food for others"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: A parasite is an organism that depends on another organism for survival, often harming it.\n\nHinglish: Parasite woh jeev hota hai jo kisi doosre jeev par depend karke jeeta hai aur aksar usse nuksan pahunchata hai. Isliye option B correct hai."
+},
+{
+  "id": 159,
+  "question": "What does the word 'Mundane' mean?",
+  "options": [
+    "Exciting and unusual",
+    "Ordinary and routine",
+    "Dangerous",
+    "Historical"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Mundane means ordinary, common, and lacking excitement.\n\nHinglish: Mundane ka matlab rozmarra ka, ordinary aur boring hona hota hai. Isliye option B correct hai."
+},
+{
+  "id": 160,
+  "question": "What is the meaning of 'Audacious'?",
+  "options": [
+    "Timid",
+    "Overly cautious",
+    "Bold and fearless",
+    "Silent"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Audacious means showing a willingness to take surprisingly bold risks.\n\nHinglish: Audacious ka matlab bahut bold aur fearless hona hota hai. Isliye option C correct hai."
+},
+{
+  "id": 161,
+  "question": "What does 'Benevolent' mean?",
+  "options": [
+    "Kind and well-meaning",
+    "Cruel",
+    "Selfish",
+    "Dishonest"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Benevolent means kind, generous, and caring towards others.\n\nHinglish: Benevolent ka matlab dayalu aur dusron ki bhalai chahne wala hota hai. Isliye option A correct hai."
+},
+{
+  "id": 162,
+  "question": "What is the meaning of 'Impeccable'?",
+  "options": [
+    "Containing many mistakes",
+    "Flawless and perfect",
+    "Average",
+    "Unreliable"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Impeccable means without flaws, errors, or faults.\n\nHinglish: Impeccable ka matlab bilkul perfect aur bina galti ke hona hota hai. Isliye option B correct hai."
+},
+{
+  "id": 163,
+  "question": "What does the word 'Candid' mean?",
+  "options": [
+    "Secretive",
+    "Dishonest",
+    "Open and honest",
+    "Confused"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Candid means truthful, straightforward, and honest.\n\nHinglish: Candid ka matlab khulkar aur imaandari se baat karna hota hai. Isliye option C correct hai."
+},
+{
+  "id": 164,
+  "question": "What is the meaning of 'Meticulous'?",
+  "options": [
+    "Careless",
+    "Quick but inaccurate",
+    "Very careful and precise",
+    "Lazy"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Meticulous means showing great attention to detail and accuracy.\n\nHinglish: Meticulous ka matlab har detail par bahut dhyan dena aur accurate hona hota hai. Isliye option C correct hai."
+},
+{
+  "id": 165,
+  "question": "What does 'Resilient' mean?",
+  "options": [
+    "Easily discouraged",
+    "Able to recover quickly from difficulties",
+    "Weak and fragile",
+    "Uncertain"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "vocabulary",
+  "explanation": "English: Resilient means being able to bounce back from challenges and setbacks.\n\nHinglish: Resilient ka matlab mushkilon se jaldi recover kar lena aur phir se strong ban jana hota hai. Isliye option B correct hai."
+}
 ]
