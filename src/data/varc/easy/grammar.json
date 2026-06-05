@@ -126,5 +126,984 @@
     "correctAnswer": 2,
     "difficulty": "easy",
     "type": "grammar"
-  }
+  },
+  {
+  "id": 17,
+  "question": "Choose the correct sentence.",
+  "options": [
+    "She don't like coffee.",
+    "She doesn't likes coffee.",
+    "She doesn't like coffee.",
+    "She not like coffee."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: After 'doesn't', the base form of the verb is used.\n\nHinglish: 'Doesn't' ke baad verb ki first form aati hai, isliye option C sahi hai."
+},
+{
+  "id": 18,
+  "question": "Find the antonym of 'Expand'.",
+  "options": [
+    "Stretch",
+    "Increase",
+    "Enlarge",
+    "Contract"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Contract' means to become smaller, which is the opposite of 'Expand'.\n\nHinglish: Expand ka opposite Contract hota hai."
+},
+{
+  "id": 19,
+  "question": "I have known him ______ five years.",
+  "options": [
+    "for",
+    "since",
+    "from",
+    "during"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'For' is used with a period of time.\n\nHinglish: Time duration ke saath 'for' use hota hai."
+},
+{
+  "id": 20,
+  "question": "Choose the correctly punctuated sentence.",
+  "options": [
+    "Lets eat, Grandpa.",
+    "Let's eat Grandpa.",
+    "Lets eat Grandpa.",
+    "Let's eat, Grandpa."
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The apostrophe and comma are both necessary.\n\nHinglish: Apostrophe aur comma dono zaroori hain."
+},
+{
+  "id": 21,
+  "question": "The book ______ on the table belongs to me.",
+  "options": [
+    "lying",
+    "laying",
+    "laid",
+    "lie"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Lying' means resting in a position.\n\nHinglish: Table par rakhi hui book ke liye 'lying' sahi hai."
+},
+{
+  "id": 22,
+  "question": "Choose the correct spelling.",
+  "options": [
+    "Recieve",
+    "Receive",
+    "Receeve",
+    "Receve"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Receive' is the correct spelling.\n\nHinglish: Correct spelling 'Receive' hai."
+},
+{
+  "id": 23,
+  "question": "Neither Riya nor her sisters ______ coming today.",
+  "options": [
+    "is",
+    "was",
+    "are",
+    "has"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The verb agrees with the nearest subject 'sisters'.\n\nHinglish: Nearest subject 'sisters' plural hai, isliye 'are' sahi hai."
+},
+{
+  "id": 24,
+  "question": "Choose the synonym of 'Rapid'.",
+  "options": [
+    "Slow",
+    "Quick",
+    "Weak",
+    "Quiet"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Rapid' means fast or quick.\n\nHinglish: Rapid ka matlab Quick hota hai."
+},
+{
+  "id": 25,
+  "question": "She ______ her homework before dinner yesterday.",
+  "options": [
+    "finished",
+    "finishes",
+    "has finished",
+    "finish"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The sentence refers to a completed action in the past.\n\nHinglish: Kal dinner se pehle ka kaam hai, isliye Past Simple use hoga."
+},
+{
+  "id": 26,
+  "question": "Choose the correct article.",
+  "options": [
+    "a honest man",
+    "an honest man",
+    "the honest man",
+    "honest man"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Honest' begins with a vowel sound, so 'an' is used.\n\nHinglish: Honest ka sound vowel se start hota hai, isliye 'an' aayega."
+},
+{
+  "id": 27,
+  "question": "Choose the sentence that is grammatically correct.",
+  "options": [
+    "One of the boys have won the competition.",
+    "One of the boys has won the competition.",
+    "One of the boys are winning the competition.",
+    "One of the boys were won the competition."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'One' is the subject and is singular, so 'has' is correct.\n\nHinglish: Subject 'One' hai jo singular hai, isliye 'has' aayega."
+},
+{
+  "id": 28,
+  "question": "Find the synonym of 'Obsolete'.",
+  "options": [
+    "Modern",
+    "Ancient",
+    "Outdated",
+    "Recent"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Obsolete' means no longer in use or outdated.\n\nHinglish: Obsolete ka matlab outdated hota hai."
+},
+{
+  "id": 29,
+  "question": "If she ______ harder, she would have succeeded.",
+  "options": [
+    "studied",
+    "had studied",
+    "has studied",
+    "would study"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: This is a third conditional sentence.\n\nHinglish: Third conditional mein 'had + past participle' use hota hai."
+},
+{
+  "id": 30,
+  "question": "Choose the correctly punctuated sentence.",
+  "options": [
+    "However we decided to continue.",
+    "However, we decided to continue.",
+    "However we, decided to continue.",
+    "However; we decided, to continue."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: A comma is required after introductory adverbs like 'However'.\n\nHinglish: 'However' ke baad comma lagta hai."
+},
+{
+  "id": 31,
+  "question": "Find the antonym of 'Scarce'.",
+  "options": [
+    "Rare",
+    "Insufficient",
+    "Limited",
+    "Abundant"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Scarce' means limited; 'Abundant' is its opposite.\n\nHinglish: Scarce ka opposite Abundant hota hai."
+},
+{
+  "id": 32,
+  "question": "The furniture in these rooms ______ very expensive.",
+  "options": [
+    "are",
+    "were",
+    "is",
+    "have"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Furniture' is an uncountable noun and takes a singular verb.\n\nHinglish: Furniture uncountable noun hai, isliye 'is' use hoga."
+},
+{
+  "id": 33,
+  "question": "Choose the correct passive voice: 'They are repairing the bridge.'",
+  "options": [
+    "The bridge was repaired by them.",
+    "The bridge is being repaired by them.",
+    "The bridge has been repaired by them.",
+    "The bridge is repaired by them."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Present Continuous passive is 'is being + past participle'.\n\nHinglish: Present Continuous ka passive 'is being repaired' hota hai."
+},
+{
+  "id": 34,
+  "question": "Choose the correctly spelt word.",
+  "options": [
+    "Occasionally",
+    "Ocassionally",
+    "Occassionly",
+    "Ocasionally"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Occasionally' is the correct spelling.\n\nHinglish: Correct spelling 'Occasionally' hai."
+},
+{
+  "id": 35,
+  "question": "Not only the teacher but also the students ______ excited about the trip.",
+  "options": [
+    "was",
+    "is",
+    "were",
+    "has"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The verb agrees with the nearest subject 'students'.\n\nHinglish: Nearest subject 'students' plural hai, isliye 'were' aayega."
+},
+{
+  "id": 36,
+  "question": "Find the meaning of 'Pragmatic'.",
+  "options": [
+    "Practical",
+    "Emotional",
+    "Careless",
+    "Traditional"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Pragmatic' means practical and realistic.\n\nHinglish: Pragmatic ka matlab practical aur realistic hota hai."
+},
+{
+  "id": 37,
+  "question": "Choose the sentence that is grammatically correct.",
+  "options": [
+    "The quality of the products are improving.",
+    "The quality of the products is improving.",
+    "The quality of the products were improving.",
+    "The quality of the products have improved."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The subject is 'quality', which is singular.\n\nHinglish: Subject 'quality' hai, jo singular hai, isliye 'is' use hoga."
+},
+{
+  "id": 38,
+  "question": "Find the synonym of 'Diligent'.",
+  "options": [
+    "Lazy",
+    "Careless",
+    "Hardworking",
+    "Ignorant"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Diligent' means hardworking and careful.\n\nHinglish: Diligent ka matlab mehnati hota hai."
+},
+{
+  "id": 39,
+  "question": "By the time we arrived, the movie ______.",
+  "options": [
+    "had started",
+    "has started",
+    "starts",
+    "will start"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Past Perfect is used for an action completed before another past action.\n\nHinglish: Humare pahunchne se pehle movie shuru ho chuki thi."
+},
+{
+  "id": 40,
+  "question": "Choose the correct spelling.",
+  "options": [
+    "Entrepreneur",
+    "Enterpreneur",
+    "Entreprenuer",
+    "Entrepeneur"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Entrepreneur' is the correct spelling.\n\nHinglish: Correct spelling 'Entrepreneur' hai."
+},
+{
+  "id": 41,
+  "question": "Find the antonym of 'Transparent'.",
+  "options": [
+    "Visible",
+    "Clear",
+    "Opaque",
+    "Bright"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Opaque' means not transparent.\n\nHinglish: Transparent ka opposite Opaque hota hai."
+},
+{
+  "id": 42,
+  "question": "Choose the correct indirect speech: She said, 'I can solve this problem.'",
+  "options": [
+    "She said that she can solve that problem.",
+    "She said that she could solve that problem.",
+    "She said that she solved that problem.",
+    "She says that she could solve that problem."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Can' changes to 'could' in reported speech.\n\nHinglish: Indirect speech mein 'can' ka 'could' ho jata hai."
+},
+{
+  "id": 43,
+  "question": "Choose the correct preposition: He is interested ______ learning foreign languages.",
+  "options": [
+    "on",
+    "at",
+    "in",
+    "for"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The correct phrase is 'interested in'.\n\nHinglish: Interested ke saath 'in' use hota hai."
+},
+{
+  "id": 44,
+  "question": "Scarcely had I reached the station ______ the train departed.",
+  "options": [
+    "than",
+    "when",
+    "that",
+    "while"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The standard structure is 'Scarcely...when'.\n\nHinglish: Scarcely ke saath 'when' aata hai."
+},
+{
+  "id": 45,
+  "question": "Find the meaning of 'Ambiguous'.",
+  "options": [
+    "Clear",
+    "Certain",
+    "Unclear",
+    "Simple"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Ambiguous' means having more than one possible meaning.\n\nHinglish: Ambiguous ka matlab unclear ya confusing hota hai."
+},
+{
+  "id": 46,
+  "question": "Choose the sentence free from errors.",
+  "options": [
+    "Everyone in the class have submitted the assignment.",
+    "Everyone in the class has submitted the assignment.",
+    "Everyone in the class were submitting the assignment.",
+    "Everyone in the class are submitting the assignment."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Everyone' is singular and takes 'has'.\n\nHinglish: Everyone singular maana jata hai, isliye 'has' sahi hai."
+},
+{
+  "id": 47,
+  "question": "Choose the sentence that is grammatically correct.",
+  "options": [
+    "None of the information were useful.",
+    "None of the information are useful.",
+    "None of the information was useful.",
+    "None of the information have been useful."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Information' is an uncountable noun and takes a singular verb.\n\nHinglish: Information uncountable noun hai, isliye 'was' sahi hai."
+},
+{
+  "id": 48,
+  "question": "Find the synonym of 'Eloquent'.",
+  "options": [
+    "Fluent",
+    "Silent",
+    "Confused",
+    "Rude"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Eloquent' means fluent and persuasive in speaking.\n\nHinglish: Eloquent ka matlab prabhavshali aur fluent bolne wala hota hai."
+},
+{
+  "id": 49,
+  "question": "Choose the correct article.",
+  "options": [
+    "He is an MLA.",
+    "He is a MLA.",
+    "He is the MLA.",
+    "He is MLA."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: MLA begins with a vowel sound ('em'), so 'an' is used.\n\nHinglish: MLA ka pronunciation 'em' se start hota hai, isliye 'an' aayega."
+},
+{
+  "id": 50,
+  "question": "Find the antonym of 'Vast'.",
+  "options": [
+    "Huge",
+    "Immense",
+    "Tiny",
+    "Broad"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Tiny' is the opposite of 'Vast'.\n\nHinglish: Vast ka opposite Tiny hota hai."
+},
+{
+  "id": 51,
+  "question": "Choose the correct passive voice of: 'Someone has stolen my bicycle.'",
+  "options": [
+    "My bicycle had been stolen.",
+    "My bicycle has been stolen.",
+    "My bicycle is stolen.",
+    "My bicycle was stolen."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Present Perfect passive is 'has been + past participle'.\n\nHinglish: Present Perfect ka passive 'has been stolen' hota hai."
+},
+{
+  "id": 52,
+  "question": "Choose the correctly spelt word.",
+  "options": [
+    "Privilege",
+    "Privilage",
+    "Priviledge",
+    "Privelege"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Privilege' is the correct spelling.\n\nHinglish: Correct spelling 'Privilege' hai."
+},
+{
+  "id": 53,
+  "question": "Had she informed me earlier, I ______ her.",
+  "options": [
+    "would help",
+    "will help",
+    "would have helped",
+    "helped"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: This is a third conditional sentence.\n\nHinglish: 'Had she informed' third conditional hai, isliye 'would have helped' sahi hai."
+},
+{
+  "id": 54,
+  "question": "Find the meaning of 'Resilient'.",
+  "options": [
+    "Fragile",
+    "Able to recover quickly",
+    "Slow",
+    "Uncertain"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Resilient' means able to recover from difficulties quickly.\n\nHinglish: Resilient ka matlab mushkilon se jaldi ubharne wala hota hai."
+},
+{
+  "id": 55,
+  "question": "Choose the correct preposition: She is capable ______ solving complex problems.",
+  "options": [
+    "for",
+    "with",
+    "of",
+    "to"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The correct phrase is 'capable of'.\n\nHinglish: Capable ke saath 'of' use hota hai."
+},
+{
+  "id": 56,
+  "question": "Choose the sentence free from grammatical errors.",
+  "options": [
+    "The news are encouraging.",
+    "The news have been encouraging.",
+    "The news is encouraging.",
+    "The news were encouraging."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'News' is treated as a singular noun.\n\nHinglish: News singular maana jata hai, isliye 'is' sahi hai."
+},
+{
+  "id": 57,
+  "question": "Choose the sentence that is grammatically correct.",
+  "options": [
+    "The jury were unanimous in its decision.",
+    "The jury was unanimous in its decision.",
+    "The jury have unanimous in its decision.",
+    "The jury are unanimous in its decision."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: When a collective noun acts as a single unit, it takes a singular verb.\n\nHinglish: Jury ko ek unit maana gaya hai, isliye 'was' sahi hai."
+},
+{
+  "id": 58,
+  "question": "Find the synonym of 'Candid'.",
+  "options": [
+    "Honest",
+    "Secretive",
+    "Confused",
+    "Proud"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Candid' means truthful and honest.\n\nHinglish: Candid ka matlab honest hota hai."
+},
+{
+  "id": 59,
+  "question": "Choose the correct article.",
+  "options": [
+    "He is a heir to the property.",
+    "He is an heir to the property.",
+    "He is the heir to property.",
+    "He is heir to the property."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Heir' begins with a silent 'h', so 'an' is used.\n\nHinglish: Heir mein 'h' silent hota hai, isliye 'an' aayega."
+},
+{
+  "id": 60,
+  "question": "Find the antonym of 'Artificial'.",
+  "options": [
+    "Synthetic",
+    "Fake",
+    "Natural",
+    "Plastic"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Natural' is the opposite of 'Artificial'.\n\nHinglish: Artificial ka opposite Natural hota hai."
+},
+{
+  "id": 61,
+  "question": "Choose the correct indirect speech: He said, 'I have finished my work.'",
+  "options": [
+    "He said that he had finished his work.",
+    "He said that he has finished his work.",
+    "He said that he finished my work.",
+    "He says that he had finished his work."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Present Perfect changes to Past Perfect in reported speech.\n\nHinglish: Indirect speech mein 'have finished' ka 'had finished' ho jata hai."
+},
+{
+  "id": 62,
+  "question": "Choose the correctly spelt word.",
+  "options": [
+    "Maintenance",
+    "Maintanance",
+    "Maintainance",
+    "Maintenence"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Maintenance' is the correct spelling.\n\nHinglish: Correct spelling 'Maintenance' hai."
+},
+{
+  "id": 63,
+  "question": "Find the meaning of 'Prudent'.",
+  "options": [
+    "Wise",
+    "Careless",
+    "Fearful",
+    "Angry"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Prudent' means wise and careful in making decisions.\n\nHinglish: Prudent ka matlab samajhdar aur soch-samajh kar faisla lene wala hota hai."
+},
+{
+  "id": 64,
+  "question": "Choose the correct preposition: He insisted ______ paying the bill himself.",
+  "options": [
+    "for",
+    "on",
+    "with",
+    "at"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The correct phrase is 'insist on'.\n\nHinglish: Insist ke saath 'on' use hota hai."
+},
+{
+  "id": 65,
+  "question": "Choose the sentence free from grammatical errors.",
+  "options": [
+    "Every one of the books are useful.",
+    "Every one of the books have been useful.",
+    "Every one of the books is useful.",
+    "Every one of the books were useful."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Every one' is singular and takes a singular verb.\n\nHinglish: 'Every one' singular hota hai, isliye 'is' sahi hai."
+},
+{
+  "id": 66,
+  "question": "By next month, they ______ the project.",
+  "options": [
+    "completed",
+    "will complete",
+    "will have completed",
+    "have completed"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Future Perfect is used for an action completed before a future time.\n\nHinglish: Future ke ek point se pehle complete hone wale action ke liye Future Perfect use hota hai."
+},
+{
+  "id": 67,
+  "question": "Choose the sentence that is grammatically correct.",
+  "options": [
+    "Not only the students but also the teacher were excited.",
+    "Not only the students but also the teacher was excited.",
+    "Not only the students but also the teacher have excited.",
+    "Not only the students but also the teacher are excited."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The verb agrees with the nearest subject 'teacher', which is singular.\n\nHinglish: Nearest subject 'teacher' singular hai, isliye 'was' sahi hai."
+},
+{
+  "id": 68,
+  "question": "Find the synonym of 'Vigilant'.",
+  "options": [
+    "Alert",
+    "Sleepy",
+    "Careless",
+    "Weak"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Vigilant' means watchful and alert.\n\nHinglish: Vigilant ka matlab satark ya alert hota hai."
+},
+{
+  "id": 69,
+  "question": "Choose the correct article.",
+  "options": [
+    "He is an one-eyed man.",
+    "He is the one-eyed man.",
+    "He is a one-eyed man.",
+    "He is one-eyed man."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'One' begins with a consonant sound ('wun'), so 'a' is used.\n\nHinglish: One ka sound 'wun' hai, isliye 'a' use hota hai."
+},
+{
+  "id": 70,
+  "question": "Find the antonym of 'Fragile'.",
+  "options": [
+    "Weak",
+    "Delicate",
+    "Breakable",
+    "Durable"
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Durable' means strong and long-lasting.\n\nHinglish: Fragile ka opposite Durable hota hai."
+},
+{
+  "id": 71,
+  "question": "Choose the correct passive voice: 'People speak English all over the world.'",
+  "options": [
+    "English was spoken all over the world.",
+    "English is spoken all over the world.",
+    "English has spoken all over the world.",
+    "English is speaking all over the world."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Present Simple passive is 'is/am/are + past participle'.\n\nHinglish: Present Simple passive mein 'is spoken' aata hai."
+},
+{
+  "id": 72,
+  "question": "Choose the correctly spelt word.",
+  "options": [
+    "Questionnaire",
+    "Questionare",
+    "Questionnair",
+    "Questionaire"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Questionnaire' is the correct spelling.\n\nHinglish: Correct spelling 'Questionnaire' hai."
+},
+{
+  "id": 73,
+  "question": "Find the meaning of 'Austere'.",
+  "options": [
+    "Luxurious",
+    "Strict and simple",
+    "Friendly",
+    "Humorous"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Austere' means strict, serious, and simple.\n\nHinglish: Austere ka matlab saada aur anushasit hota hai."
+},
+{
+  "id": 74,
+  "question": "Choose the correct preposition: She is proficient ______ mathematics.",
+  "options": [
+    "in",
+    "at",
+    "for",
+    "with"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The correct phrase is 'proficient at' or commonly tested as 'proficient in'. In exams, 'in mathematics' is standard.\n\nHinglish: Mathematics ke saath aam taur par 'proficient in' use hota hai."
+},
+{
+  "id": 75,
+  "question": "Choose the sentence free from grammatical errors.",
+  "options": [
+    "Much of the work remain unfinished.",
+    "Much of the work have remained unfinished.",
+    "Much of the work remains unfinished.",
+    "Much of the work are unfinished."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Work' is uncountable and takes a singular verb.\n\nHinglish: Work uncountable noun hai, isliye 'remains' sahi hai."
+},
+{
+  "id": 76,
+  "question": "Had the weather been better, we ______ the picnic.",
+  "options": [
+    "would enjoy",
+    "would have enjoyed",
+    "will enjoy",
+    "enjoyed"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: This is a third conditional sentence.\n\nHinglish: Yeh third conditional hai, isliye 'would have enjoyed' sahi hai."
+},{
+  "id": 77,
+  "question": "Choose the sentence that is grammatically correct.",
+  "options": [
+    "The captain, along with his players, are ready.",
+    "The captain, along with his players, is ready.",
+    "The captain, along with his players, were ready.",
+    "The captain, along with his players, have been ready."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The subject is 'captain'. Phrases like 'along with' do not affect the verb.\n\nHinglish: Verb 'captain' ke according aayega, 'along with his players' ko ignore karte hain."
+},
+{
+  "id": 78,
+  "question": "Find the synonym of 'Impeccable'.",
+  "options": [
+    "Flawless",
+    "Ordinary",
+    "Careless",
+    "Weak"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Impeccable' means perfect or without faults.\n\nHinglish: Impeccable ka matlab flawless ya bilkul perfect hota hai."
+},
+{
+  "id": 79,
+  "question": "Choose the correct article.",
+  "options": [
+    "He is an European diplomat.",
+    "He is a European diplomat.",
+    "He is the European diplomat.",
+    "He is European diplomat."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'European' starts with a consonant sound (yu), so 'a' is correct.\n\nHinglish: European ka sound 'yu' hai, isliye 'a' use hoga."
+},
+{
+  "id": 80,
+  "question": "Find the antonym of 'Hostile'.",
+  "options": [
+    "Aggressive",
+    "Friendly",
+    "Violent",
+    "Cruel"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Friendly' is the opposite of 'Hostile'.\n\nHinglish: Hostile ka opposite Friendly hota hai."
+},
+{
+  "id": 81,
+  "question": "Choose the correct passive voice: 'They will announce the results tomorrow.'",
+  "options": [
+    "The results are announced tomorrow.",
+    "The results will be announced tomorrow.",
+    "The results have been announced tomorrow.",
+    "The results were announced tomorrow."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Future Simple passive is 'will be + past participle'.\n\nHinglish: Future passive mein 'will be announced' use hota hai."
+},
+{
+  "id": 82,
+  "question": "Choose the correctly spelt word.",
+  "options": [
+    "Embarrassment",
+    "Embarassment",
+    "Embarrasment",
+    "Embarasment"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Embarrassment' is the correct spelling.\n\nHinglish: Correct spelling 'Embarrassment' hai."
+},
+{
+  "id": 83,
+  "question": "Find the meaning of 'Belligerent'.",
+  "options": [
+    "Peaceful",
+    "Cheerful",
+    "Aggressive",
+    "Honest"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'Belligerent' means hostile and aggressive.\n\nHinglish: Belligerent ka matlab jhagdalu ya aggressive hota hai."
+},
+{
+  "id": 84,
+  "question": "Choose the correct preposition: The committee consists ______ five members.",
+  "options": [
+    "from",
+    "with",
+    "of",
+    "for"
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: The correct phrase is 'consists of'.\n\nHinglish: Consists ke saath 'of' use hota hai."
+},
+{
+  "id": 85,
+  "question": "Choose the sentence free from grammatical errors.",
+  "options": [
+    "A number of students has participated.",
+    "A number of students have participated.",
+    "A number of students was participated.",
+    "A number of students is participated."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: 'A number of' takes a plural verb.\n\nHinglish: 'A number of students' plural maana jata hai, isliye 'have' sahi hai."
+},
+{
+  "id": 86,
+  "question": "Choose the correct sentence.",
+  "options": [
+    "Rarely I have seen such dedication.",
+    "Rarely have I seen such dedication.",
+    "Rarely I had seen such dedication.",
+    "Rarely did seen I such dedication."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "grammar",
+  "explanation": "English: Negative adverbs at the beginning require inversion.\n\nHinglish: Rarely sentence ke start mein ho to inversion hota hai, isliye option B sahi hai."
+}
 ]

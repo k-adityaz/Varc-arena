@@ -278,5 +278,425 @@
     "difficulty": "easy",
     "type": "critical-reasoning",
     "explanation": "All planets revolve around the Sun. Earth is a planet, so Earth revolves around the Sun."
-  }
+  },
+{
+  "id": 26,
+  "question": "A city's public transport department found that people who use buses regularly spend less money on transportation each month. Therefore, using buses reduces transportation expenses. Which of the following most weakens the argument?",
+  "options": [
+    "Many bus users also use trains occasionally.",
+    "Bus fares have remained unchanged for several years.",
+    "People with lower transportation budgets are more likely to choose buses in the first place.",
+    "The number of bus routes has increased recently."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The argument assumes bus usage causes lower expenses. However, people with lower budgets may naturally choose buses, meaning the relationship may not be causal."
+},
+{
+  "id": 27,
+  "question": "A teacher observed that students who submit assignments early usually score higher marks. She concluded that submitting assignments early improves grades. Which option most weakens the conclusion?",
+  "options": [
+    "Students who submit assignments early are often more disciplined and academically stronger.",
+    "Some assignments are easier than others.",
+    "The school has recently changed its grading policy.",
+    "Many students prefer studying in groups."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The higher grades may result from the students' discipline and ability rather than the timing of submission itself."
+},
+{
+  "id": 28,
+  "question": "A company claims that its new productivity app increases employee efficiency because teams using the app complete more projects than teams that do not. Which assumption does the argument require?",
+  "options": [
+    "The app is easy to use.",
+    "Employees received proper training before using the app.",
+    "The teams using the app were not already more efficient than the other teams.",
+    "Most employees own smartphones."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If the app-using teams were already more efficient, the higher productivity cannot confidently be attributed to the app."
+},
+{
+  "id": 29,
+  "question": "A restaurant started offering online ordering, and its sales increased over the next six months. The owner concluded that online ordering caused the increase in sales. Which statement most weakens the conclusion?",
+  "options": [
+    "The restaurant's menu remained largely unchanged.",
+    "Several competing restaurants closed during the same six-month period.",
+    "Many customers prefer ordering food online.",
+    "The restaurant receives positive reviews."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "Sales may have increased because competitors closed, not because of the online ordering service."
+},
+{
+  "id": 30,
+  "question": "A school introduced a daily reading period. At the end of the year, average language scores increased. The principal concluded that the reading period improved language performance. Which of the following would most strengthen the conclusion?",
+  "options": [
+    "No major changes were made to the language curriculum during the year.",
+    "Many students enjoy reading novels.",
+    "The school library purchased new books.",
+    "Language scores vary between classes."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If no other significant changes occurred, it becomes more likely that the reading period contributed to the improvement in scores."
+},
+{
+  "id": 31,
+  "question": "A company noticed that employees who participate in wellness programs take fewer sick days than those who do not. Management concluded that the wellness program improves employee health. Which option most weakens this conclusion?",
+  "options": [
+    "The wellness program includes fitness classes and health seminars.",
+    "Employees who choose to join the wellness program are generally more health-conscious than others.",
+    "Participation in the wellness program has increased over time.",
+    "Many employees prefer online wellness activities."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If healthier employees are more likely to join the program, the lower number of sick days may not be caused by the program itself."
+},
+{
+  "id": 32,
+  "question": "A bookstore found that customers who purchase membership cards spend more money annually than non-members. The owner concluded that the membership card increases customer spending. Which assumption is necessary for the conclusion?",
+  "options": [
+    "Most customers know about the membership program.",
+    "Membership cards are affordable.",
+    "Members visit the bookstore at least once a month.",
+    "People who buy membership cards were not already heavier book buyers before becoming members."
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If members were already spending more before purchasing the membership, the increased spending cannot be attributed to the card."
+},
+{
+  "id": 33,
+  "question": "A town installed new streetlights, and reported crime decreased the following year. The mayor concluded that the new streetlights reduced crime. Which statement most weakens the argument?",
+  "options": [
+    "The town also increased the number of police patrols during the same period.",
+    "Many residents support the new streetlights.",
+    "The streetlights consume less electricity than older models.",
+    "Crime rates differ across neighborhoods."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The reduction in crime may have resulted from increased police patrols rather than the streetlights."
+},
+{
+  "id": 34,
+  "question": "A fitness coach claims that clients who follow her meal plan lose more weight than those who do not. Therefore, the meal plan is responsible for the weight loss. Which option most weakens the coach's claim?",
+  "options": [
+    "The meal plan includes a variety of foods.",
+    "Many clients find the meal plan easy to follow.",
+    "Clients who choose the meal plan are generally more committed to losing weight than other clients.",
+    "The coach updates the meal plan regularly."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The greater weight loss may be due to the clients' motivation rather than the meal plan itself."
+},
+{
+  "id": 35,
+  "question": "A school introduced weekly science workshops. At the end of the year, science test scores increased. Which statement would most strengthen the argument that the workshops caused the improvement?",
+  "options": [
+    "The science curriculum and teachers remained largely unchanged during the year.",
+    "Many students enjoyed attending the workshops.",
+    "The workshops were held after school hours.",
+    "Science is one of the students' favorite subjects."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If no major changes occurred besides the workshops, they become a more likely explanation for the improvement in scores."
+}, 
+{
+  "id": 36,
+  "question": "A survey found that people who own pets visit doctors less frequently than people who do not own pets. Therefore, owning pets improves health. Which of the following most weakens the argument?",
+  "options": [
+    "Many pet owners spend time walking their pets.",
+    "Pet ownership has increased over the last decade.",
+    "People who are already healthier may be more likely to take on the responsibility of owning pets.",
+    "Some pets require expensive medical care."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The argument assumes pet ownership causes better health. It may instead be that healthier people are more likely to own pets."
+},
+{
+  "id": 37,
+  "question": "A company introduced flexible work hours. Six months later, employee satisfaction increased. The company concluded that flexible hours caused the increase in satisfaction. Which statement most weakens the conclusion?",
+  "options": [
+    "Employees were also given significant salary increases during the same period.",
+    "Most employees prefer flexible schedules.",
+    "The company has offices in several cities.",
+    "Flexible work policies are becoming more common."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The increase in satisfaction may have been caused by salary increases rather than flexible work hours."
+},
+{
+  "id": 38,
+  "question": "A college found that students who attend career counseling sessions receive more job offers after graduation. The college concluded that the counseling sessions improve employment outcomes. Which assumption is necessary?",
+  "options": [
+    "The counseling sessions are available to all students.",
+    "Students who attend counseling sessions are not already more career-focused than those who do not attend.",
+    "Most students attend at least one counseling session.",
+    "Employers value college degrees."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If attendees were already more career-focused, the better employment outcomes may not result from the counseling sessions."
+},
+{
+  "id": 39,
+  "question": "A city built several new parks, and tourism increased the following year. The mayor concluded that the parks attracted more tourists. Which option most weakens the argument?",
+  "options": [
+    "The parks include playgrounds and walking trails.",
+    "The city launched a major international tourism campaign during the same year.",
+    "Many local residents use the parks regularly.",
+    "The parks were completed ahead of schedule."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The increase in tourism may have resulted from the tourism campaign rather than the new parks."
+},
+{
+  "id": 40,
+  "question": "A school started a mentoring program for students. One year later, dropout rates fell significantly. Which statement most strengthens the claim that the mentoring program caused the decline?",
+  "options": [
+    "Many students participated in extracurricular activities.",
+    "The mentoring program was popular among teachers.",
+    "No other major policies aimed at reducing dropouts were introduced during that year.",
+    "Student enrollment remained stable."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If no other major anti-dropout initiatives were introduced, the mentoring program becomes a more likely explanation for the decline."
+},
+{
+  "id": 41,
+  "question": "A study found that students who listen to music while studying score higher on exams than students who do not. The researchers concluded that listening to music improves academic performance. Which of the following most weakens the conclusion?",
+  "options": [
+    "Many students prefer instrumental music over songs with lyrics.",
+    "Students who listen to music while studying tend to spend more total time studying.",
+    "Different students prefer different genres of music.",
+    "Music streaming services have become more popular."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The higher scores may be due to spending more time studying rather than listening to music itself."
+},
+{
+  "id": 42,
+  "question": "A company found that workers who use standing desks report less back pain than workers who use traditional desks. Therefore, standing desks reduce back pain. Which assumption is required?",
+  "options": [
+    "Standing desks are more expensive than traditional desks.",
+    "Employees who choose standing desks are not already more health-conscious than other employees.",
+    "Most employees use their desks for at least six hours daily.",
+    "Back pain is a common workplace complaint."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If healthier employees are more likely to choose standing desks, the lower back pain may not be caused by the desks themselves."
+},
+{
+  "id": 43,
+  "question": "A town opened a new community center. Over the next year, youth crime declined. The mayor concluded that the community center caused the decline. Which statement most weakens the argument?",
+  "options": [
+    "The community center offers sports and educational activities.",
+    "Youth crime had already been declining steadily for three years before the center opened.",
+    "Many local families support the community center.",
+    "The center is open throughout the week."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If youth crime was already declining before the center opened, the decline may not have been caused by the community center."
+},
+{
+  "id": 44,
+  "question": "An online retailer noticed that customers who leave product reviews are more likely to make repeat purchases. The retailer concluded that writing reviews increases customer loyalty. Which option most weakens this conclusion?",
+  "options": [
+    "Customers who are already loyal are more likely to leave reviews.",
+    "Most reviews are positive.",
+    "The retailer offers products in many categories.",
+    "Writing a review takes only a few minutes."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The relationship may be reversed: loyal customers may be more likely to write reviews."
+},
+{
+  "id": 45,
+  "question": "A school introduced a digital learning platform. Test scores improved the following year. Which statement would most strengthen the claim that the platform improved student performance?",
+  "options": [
+    "Students found the platform easy to use.",
+    "The platform was used in several subjects.",
+    "No major changes were made to teaching methods or examination patterns during the year.",
+    "Most students had internet access at home."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If no other significant educational changes occurred, the digital platform becomes a stronger explanation for the improved scores."
+},
+{
+  "id": 46,
+  "question": "A survey found that people who regularly attend public lectures are more likely to read newspapers daily. A researcher concluded that attending public lectures causes people to read newspapers more often. Which of the following most weakens the conclusion?",
+  "options": [
+    "Many public lectures are free to attend.",
+    "People who are already interested in current affairs are more likely to both attend lectures and read newspapers.",
+    "Newspapers often advertise upcoming public lectures.",
+    "Attendance at public lectures has increased in recent years."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "A common interest in current affairs could explain both behaviors, meaning the lectures may not cause increased newspaper reading."
+},
+{
+  "id": 47,
+  "question": "A company observed that employees who participate in volunteer programs receive better performance evaluations. Management concluded that volunteering improves job performance. Which assumption is necessary for the conclusion?",
+  "options": [
+    "Employees who volunteer are not already more motivated and responsible than other employees.",
+    "Most volunteer activities occur outside working hours.",
+    "Performance evaluations are conducted annually.",
+    "The company encourages volunteering."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If volunteers are already more motivated, volunteering itself may not be responsible for the better evaluations."
+},
+{
+  "id": 48,
+  "question": "A city introduced free Wi-Fi in public parks. The number of park visitors increased the following year. The mayor concluded that free Wi-Fi attracted more visitors. Which statement most weakens the argument?",
+  "options": [
+    "Many visitors use the Wi-Fi service regularly.",
+    "The city renovated the parks and added new recreational facilities during the same period.",
+    "Several nearby cities do not provide free park Wi-Fi.",
+    "The Wi-Fi service is available in all major parks."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The increase in visitors may have been caused by the renovations rather than the Wi-Fi service."
+},
+{
+  "id": 49,
+  "question": "A school found that students who participate in science clubs are more likely to pursue science degrees in college. Therefore, participation in science clubs encourages students to choose science careers. Which of the following most weakens the argument?",
+  "options": [
+    "Science clubs organize competitions and workshops.",
+    "Many science club members win academic awards.",
+    "Students already interested in science are more likely to join science clubs.",
+    "Some schools do not offer science clubs."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "Students may join science clubs because of their existing interest in science, rather than developing that interest through participation."
+},
+{
+  "id": 50,
+  "question": "A retailer launched a customer loyalty app. Six months later, repeat purchases increased significantly. Which statement would most strengthen the claim that the app caused the increase?",
+  "options": [
+    "Customers gave positive feedback about the app.",
+    "The retailer's advertising budget remained unchanged.",
+    "Most customers downloaded the app within the first month.",
+    "No other major marketing or promotional initiatives were introduced during the six-month period."
+  ],
+  "correctAnswer": 3,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If no other significant initiatives were introduced, the loyalty app becomes a more likely explanation for the increase in repeat purchases."
+},
+{
+  "id": 51,
+  "question": "A study found that students who sleep at least eight hours per night tend to score better on tests. Researchers concluded that sleeping eight hours improves academic performance. Which option most weakens the conclusion?",
+  "options": [
+    "Students who manage their time effectively are more likely to both sleep adequately and perform well academically.",
+    "Most students sleep between six and eight hours.",
+    "Some students take naps during the day.",
+    "Test scores vary across subjects."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "Good time management may explain both better sleep and better academic performance."
+},
+{
+  "id": 52,
+  "question": "A company noticed that teams using a new project-management tool complete projects faster than other teams. The company concluded that the tool increases efficiency. Which assumption is required?",
+  "options": [
+    "The tool is compatible with existing software.",
+    "The teams using the tool were not already more efficient than the other teams.",
+    "Employees received training on the tool.",
+    "The company plans to expand the tool's use."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If the tool-using teams were already more efficient, the faster completion times may not result from the tool."
+},
+{
+  "id": 53,
+  "question": "A town built several bicycle lanes. Over the next year, traffic congestion decreased. The mayor concluded that the bicycle lanes reduced congestion. Which statement most weakens the conclusion?",
+  "options": [
+    "Many residents support environmentally friendly transportation.",
+    "Several large employers in the town permanently adopted remote-work policies during the same year.",
+    "Bicycle sales increased after the lanes were built.",
+    "The bicycle lanes connect major residential areas."
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "Remote work may have reduced traffic congestion regardless of the bicycle lanes."
+},
+{
+  "id": 54,
+  "question": "A university found that students who attend optional review sessions perform better in final exams. Which of the following, if true, most strengthens the claim that the review sessions improve performance?",
+  "options": [
+    "The students attending review sessions generally had lower grades than non-attendees before the sessions began.",
+    "Many review sessions are held during weekends.",
+    "The university offers review sessions in most subjects.",
+    "Attendance at review sessions has increased over time."
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "If attendees initially had lower grades but later performed better, the review sessions become a stronger explanation for the improvement."
+},
+{
+  "id": 55,
+  "question": "A gym introduced a fitness-tracking app, and members using the app lost more weight than those who did not. The gym concluded that the app caused the greater weight loss. Which option most weakens the conclusion?",
+  "options": [
+    "The app includes workout reminders and progress reports.",
+    "Weight-loss goals vary among gym members.",
+    "Members who chose to use the app were generally more committed to fitness than those who did not.",
+    "The gym has offered the app for less than a year."
+  ],
+  "correctAnswer": 2,
+  "difficulty": "easy",
+  "type": "critical-reasoning",
+  "explanation": "The greater weight loss may be due to the users' higher motivation rather than the app itself."
+}
 ]

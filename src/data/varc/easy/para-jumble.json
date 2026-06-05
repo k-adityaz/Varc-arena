@@ -258,5 +258,187 @@
     "correctAnswer": 0,
     "difficulty": "easy",
     "type": "para-jumble"
-  }
+  },
+  {
+    "id": 21,
+    "question": "Arrange the sentences logically:\nA. The gardener watered the plants.\nB. He trimmed the bushes neatly.\nC. The garden looked beautiful and well-maintained.\nD. He planted colorful flowers in the garden.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 3,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 22,
+    "question": "Arrange the sentences in correct order:\nA. The students gathered in the auditorium.\nB. The principal gave a motivational speech.\nC. Everyone felt inspired and motivated.\nD. The event ended with a round of applause.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "C-B-A-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 23,
+    "question": "Arrange the sentences logically:\nA. The chef prepared the ingredients for the dish.\nB. He cooked the food carefully.\nC. The delicious meal was served to the customers.\nD. Everyone enjoyed the tasty food.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+  {
+    "id": 24,
+    "question": "Arrange the sentences in correct order:\nA. The students participated in a science exhibition.\nB. They displayed their innovative projects.\nC. Visitors appreciated their creativity and hard work.\nD. The event was a great success.",
+    "options": [
+      "A-B-C-D",
+      "B-A-D-C",
+      "A-C-B-D",
+      "D-C-B-A"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "type": "para-jumble"
+  },
+{
+  "id": 25,
+  "question": "Arrange the sentences in correct order:\nA. The startup struggled to attract customers during its first year.\nB. The founders revised their marketing strategy.\nC. Brand awareness gradually increased.\nD. Sales began to rise steadily.",
+  "options": [
+    "A-B-C-D",
+    "B-A-D-C",
+    "A-C-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "medium",
+  "type": "para-jumble"
+},
+{
+  "id": 26,
+  "question": "Arrange the sentences in correct order:\nA. Satellite images revealed unexpected changes in the coastline.\nB. Scientists compared the data with historical records.\nC. Significant erosion trends became evident.\nD. Conservation measures were recommended.",
+  "options": [
+    "B-A-C-D",
+    "A-B-C-D",
+    "A-C-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "hard",
+  "type": "para-jumble"
+},
+{
+  "id": 27,
+  "question": "Arrange the sentences in correct order:\nA. Many organizations collect large amounts of data.\nB. Raw information alone rarely creates value.\nC. Analytical tools help identify meaningful patterns.\nD. Better decisions can then be made.",
+  "options": [
+    "A-B-C-D",
+    "B-A-D-C",
+    "C-A-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "medium",
+  "type": "para-jumble"
+},
+{
+  "id": 28,
+  "question": "Arrange the sentences in correct order:\nA. Consumers often claim to prefer sustainable products.\nB. Actual purchasing behavior does not always reflect those preferences.\nC. Researchers refer to this mismatch as an attitude-behavior gap.\nD. The phenomenon continues to challenge marketers and policymakers.",
+  "options": [
+    "A-B-C-D",
+    "B-A-C-D",
+    "A-C-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "cat",
+  "type": "para-jumble"
+},
+{
+  "id": 29,
+  "question": "Arrange the sentences in correct order:\nA. Early economists often assumed individuals acted with complete rationality.\nB. Later studies highlighted the influence of cognitive biases.\nC. These findings questioned several traditional assumptions.\nD. Behavioral economics emerged as a result.",
+  "options": [
+    "B-A-C-D",
+    "A-B-C-D",
+    "A-C-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "cat",
+  "type": "para-jumble"
+},
+{
+  "id": 30,
+  "question": "Arrange the sentences in correct order:\nA. The village depended heavily on groundwater for agriculture.\nB. Water levels declined over several years.\nC. Farmers adopted more efficient irrigation techniques.\nD. Consumption decreased noticeably afterward.",
+  "options": [
+    "A-B-C-D",
+    "B-A-D-C",
+    "C-A-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "easy",
+  "type": "para-jumble"
+},
+{
+  "id": 31,
+  "question": "Arrange the sentences in correct order:\nA. A new material was developed in the laboratory.\nB. Engineers tested its strength under extreme conditions.\nC. The results exceeded expectations.\nD. Commercial applications were soon explored.",
+  "options": [
+    "B-A-C-D",
+    "A-B-C-D",
+    "A-C-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "hard",
+  "type": "para-jumble"
+},
+{
+  "id": 32,
+  "question": "Arrange the sentences in correct order:\nA. Public trust is difficult to build.\nB. Transparency can strengthen institutional credibility.\nC. Citizens are more likely to cooperate when they understand decisions.\nD. Effective communication therefore becomes essential.",
+  "options": [
+    "A-B-C-D",
+    "B-A-D-C",
+    "C-A-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "cat",
+  "type": "para-jumble"
+},
+{
+  "id": 33,
+  "question": "Arrange the sentences in correct order:\nA. The athlete suffered an injury before the tournament.\nB. A specialized rehabilitation program was designed.\nC. Recovery progressed faster than expected.\nD. The athlete returned to competition within months.",
+  "options": [
+    "B-A-C-D",
+    "A-B-C-D",
+    "A-C-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 1,
+  "difficulty": "easy",
+  "type": "para-jumble"
+},
+{
+  "id": 34,
+  "question": "Arrange the sentences in correct order:\nA. Technological innovation often increases productivity.\nB. The benefits, however, may not be distributed evenly.\nC. Certain groups adapt more quickly than others.\nD. This can widen existing economic disparities.",
+  "options": [
+    "A-B-C-D",
+    "B-A-D-C",
+    "A-C-B-D",
+    "D-C-B-A"
+  ],
+  "correctAnswer": 0,
+  "difficulty": "cat",
+  "type": "para-jumble"
+}
 ]
